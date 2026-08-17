@@ -1,0 +1,1733 @@
+{
+ "project": "CVAH Veterinary Assistant University",
+ "version": "1.0",
+ "build_date": "2026-08-17",
+ "bank_growth_targets": {
+  "QB-CORE": "183 -> 400 by month 6",
+  "recognition_battery_media": "12 -> 40 by month 3"
+ },
+ "pending_specs": 47,
+ "notes": "See 00_Project_Control/CONTINUATION_STATE.md",
+ "files": [
+  {
+   "file": "00_Project_Control/CONTINUATION_STATE.md",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/CVAH_Discovery_Questionnaire.md",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/Executive_Overview.md",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/README.md",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/Version_Control_Policy.md",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "01_University_Governance/Credential_Definitions.md",
+   "area": "01_University_Governance",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "01_University_Governance/Governance_Roles.md",
+   "area": "01_University_Governance",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "01_University_Governance/Medical_Review_Workflow.md",
+   "area": "01_University_Governance",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "01_University_Governance/University_Charter.md",
+   "area": "01_University_Governance",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "02_Scope_and_Regulatory/Arizona_Scope_Matrix.csv",
+   "area": "02_Scope_and_Regulatory",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "02_Scope_and_Regulatory/Arizona_Scope_Matrix.md",
+   "area": "02_Scope_and_Regulatory",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "02_Scope_and_Regulatory/Regulatory_Research_Log.md",
+   "area": "02_Scope_and_Regulatory",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "02_Scope_and_Regulatory/Scope_Classification_System.md",
+   "area": "02_Scope_and_Regulatory",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "03_Competency_Framework/Clinical_Workload_Ownership_Matrix.csv",
+   "area": "03_Competency_Framework",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "03_Competency_Framework/Clinical_Workload_Ownership_Matrix.md",
+   "area": "03_Competency_Framework",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "03_Competency_Framework/Competency_Passport_Specification.md",
+   "area": "03_Competency_Framework",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "03_Competency_Framework/Graduation_Requirements.md",
+   "area": "03_Competency_Framework",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "03_Competency_Framework/Specialty_Prerequisite_Map.md",
+   "area": "03_Competency_Framework",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "03_Competency_Framework/Transcript_Specification.md",
+   "area": "03_Competency_Framework",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "03_Competency_Framework/VA_Levels.md",
+   "area": "03_Competency_Framework",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Core_Academy_Overview.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Lesson_Template.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_0/W0-01_Orientation_Baseline.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_0/W0-02_Hospital_Safety.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_0/W0-03_Scope_Conduct_PatientID.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_1/W1-01_Hospital_Flow_Terminology.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_1/W1-02_Canine_Feline_Handling.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_1/W1-03_Restraint_Skills_Floor_Week.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_1/W1-04_Sanitation_Infection_Control.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_1/W1-05_TPR.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_1/W1-06_Documentation_Communication.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_2/W2-01_Appointment_Room_Assisting.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_2/W2-02_Histories_Observations.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_2/W2-03_Medication_Foundations.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_2/W2-04_Sample_Basics.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_2/W2-05_Inpatient_Basics.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_3/W3-01_Vascular_Anatomy.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_3/W3-02_Cephalic_Venipuncture_Week.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_3/W3-03_Saphenous_Jugular_Intro.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_3/W3-04_Tubes_Sample_Integrity.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_3/W3-05_SQ_Injections.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_4/W4-01_IVC_Foundations.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_4/W4-02_IVC_Placement_Securing.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_4/W4-03_IVC_Troubleshooting.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_4/W4-04_Fluid_Therapy_Equipment.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_4/W4-05_Pumps_IM_Injections.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_5/W5-01_Radiology_Radiation_Safety.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_5/W5-02_Surgical_Workflow_Asepsis.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_5/W5-03_Surgical_Prep.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_5/W5-04_Instruments_Packs_Autoclave.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_5/W5-05_Anesthesia_Foundations.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_6/W6-01_Dentistry_Foundations.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_6/W6-02_Recovery_Postop_Care.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_6/W6-03_Inpatient_Care_Handoffs.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_6/W6-04_Emergency_Foundations.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_7/W7-01_Integrated_Cases.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_7/W7-02_Abnormality_Recognition.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_7/W7-03_Workflow_Simulations.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_8/W8-01_Graduation_Week.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "04_Core_VA_Academy/Week_8/W8-02_Gap_Closure.md",
+   "area": "04_Core_VA_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/README.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Skill_Template.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Skills_Inventory.csv",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-ANE-101.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-ANE-103.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-ASM-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-COM-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-DOC-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-ECC-102.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-EMR-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-FLU-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-FLU-002.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-HND-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-IMG-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-INJ-IM-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-INJ-SQ-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-INP-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-IVC-CEPH-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-LAB-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-LAB-002.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-MED-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-MED-PO-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-RES-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-RES-002.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-RES-003.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-SAM-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-SAN-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-SUR-PREP-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-SUR-STER-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-VEN-CEPH-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-VEN-JUG-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/TS-VEN-SAPH-001.md",
+   "area": "05_Technical_Skills_Library",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "06_Perioperative_Anesthesia_Academy/ANE-L1_Capnography.md",
+   "area": "06_Perioperative_Anesthesia_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "06_Perioperative_Anesthesia_Academy/ANE-L2_Recovery_Crisis.md",
+   "area": "06_Perioperative_Anesthesia_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "06_Perioperative_Anesthesia_Academy/Syllabus.md",
+   "area": "06_Perioperative_Anesthesia_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "07_Laboratory_IDEXX_Academy/Syllabus.md",
+   "area": "07_Laboratory_IDEXX_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "08_Dentistry_Academy/Syllabus.md",
+   "area": "08_Dentistry_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "09_Diagnostic_Imaging_Academy/Syllabus.md",
+   "area": "09_Diagnostic_Imaging_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "10_Emergency_Critical_Care_Academy/Syllabus.md",
+   "area": "10_Emergency_Critical_Care_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "11_Inpatient_Care_Academy/Syllabus.md",
+   "area": "11_Inpatient_Care_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "12_Pharmacy_Medication_Academy/Syllabus.md",
+   "area": "12_Pharmacy_Medication_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "13_Assessments/Assessment_System_Blueprint.md",
+   "area": "13_Assessments",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "13_Assessments/Core_Final_Exam_Blueprint.md",
+   "area": "13_Assessments",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "13_Assessments/Diagnostic_Pretest.md",
+   "area": "13_Assessments",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "13_Assessments/Recognition_Battery.md",
+   "area": "13_Assessments",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-ANES.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-ASM.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-EMR.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-FLU.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-HND.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-IVC.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-LAB.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-MED.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-SAF.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-SUR.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-CORE-VEN.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-DENT.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-ECC.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-IMG.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-INPT.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-LABX.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB-PHAR.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/QB_Format_Specification.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "15_Practical_Competencies/Core_Graduation_Practical_Stations.md",
+   "area": "15_Practical_Competencies",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "15_Practical_Competencies/PA-ASM-TPR-001.md",
+   "area": "15_Practical_Competencies",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "15_Practical_Competencies/PA-Compact_Set.md",
+   "area": "15_Practical_Competencies",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "15_Practical_Competencies/PA-IVC-CEPH-001.md",
+   "area": "15_Practical_Competencies",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "15_Practical_Competencies/PA-RES-001.md",
+   "area": "15_Practical_Competencies",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "15_Practical_Competencies/PA-Specialty_Set.md",
+   "area": "15_Practical_Competencies",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "15_Practical_Competencies/PA-VEN-CEPH-001.md",
+   "area": "15_Practical_Competencies",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "15_Practical_Competencies/Rubric_Standards.md",
+   "area": "15_Practical_Competencies",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "15_Practical_Competencies/VA3_Attestation_Form.md",
+   "area": "15_Practical_Competencies",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "16_Case_Logs/Case_Log_Specification.md",
+   "area": "16_Case_Logs",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "16_Case_Logs/Repetition_Requirements.md",
+   "area": "16_Case_Logs",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "16_Case_Logs/case_log_card_print.md",
+   "area": "16_Case_Logs",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "16_Case_Logs/case_log_template.csv",
+   "area": "16_Case_Logs",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "17_Simulations/SIM-ANES_Trend_Cases.md",
+   "area": "17_Simulations",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "17_Simulations/SIM-CORE-001_Deteriorating_Ward_Patient.md",
+   "area": "17_Simulations",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "17_Simulations/SIM-CORE-002_Catheter_Decision_Tree.md",
+   "area": "17_Simulations",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "17_Simulations/SIM-CORE-003_Stress_Escalation_Draw.md",
+   "area": "17_Simulations",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "17_Simulations/SIM-CORE-004_Emergency_Team_Mock.md",
+   "area": "17_Simulations",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "17_Simulations/SIM-INPT_Trend_Cases.md",
+   "area": "17_Simulations",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "17_Simulations/Simulation_Design_Guide.md",
+   "area": "17_Simulations",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "18_Controlled_References/CRC-001_Vital_Sign_Bands.md",
+   "area": "18_Controlled_References",
+   "status": "draft",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "pending DVM approval before clinical use"
+  },
+  {
+   "file": "18_Controlled_References/CRC-002_CPR_Quick_Reference.md",
+   "area": "18_Controlled_References",
+   "status": "draft",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "pending DVM approval before clinical use"
+  },
+  {
+   "file": "18_Controlled_References/CRC-003_Anesthesia_Alert_Thresholds.md",
+   "area": "18_Controlled_References",
+   "status": "draft",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "pending DVM approval before clinical use"
+  },
+  {
+   "file": "18_Controlled_References/CRC-005_Crash_Cart_Checklist.md",
+   "area": "18_Controlled_References",
+   "status": "draft",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "pending DVM approval before clinical use"
+  },
+  {
+   "file": "18_Controlled_References/Controlled_Reference_System.md",
+   "area": "18_Controlled_References",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "18_Controlled_References/crc_register.csv",
+   "area": "18_Controlled_References",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "19_Equipment_Registry/Equipment_Discovery_Survey.md",
+   "area": "19_Equipment_Registry",
+   "status": "blocked_on_input",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "awaiting equipment survey"
+  },
+  {
+   "file": "19_Equipment_Registry/Equipment_Registry_Specification.md",
+   "area": "19_Equipment_Registry",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "19_Equipment_Registry/equipment_registry.csv",
+   "area": "19_Equipment_Registry",
+   "status": "blocked_on_input",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "awaiting equipment survey"
+  },
+  {
+   "file": "20_LMS/Branding_Guide.md",
+   "area": "20_LMS",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "20_LMS/Course_Structure_Map.md",
+   "area": "20_LMS",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "20_LMS/Interactive_Content_Specs.md",
+   "area": "20_LMS",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "20_LMS/Knowledge_Base.md",
+   "area": "20_LMS",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "20_LMS/LMS_Platform_Analysis.md",
+   "area": "20_LMS",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "20_LMS/Moodle_Deployment_Guide.md",
+   "area": "20_LMS",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "20_LMS/moodle_competency_framework.csv",
+   "area": "20_LMS",
+   "status": "generated",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "re-generate if inventory changes"
+  },
+  {
+   "file": "20_LMS/Video_System/VID-IVC-CEPH-001_storyboard.md",
+   "area": "20_LMS",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "20_LMS/Video_System/VID-VEN-CEPH-001_storyboard.md",
+   "area": "20_LMS",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "20_LMS/Video_System/Video_Production_Plan.md",
+   "area": "20_LMS",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "21_Dashboards/Assessor_Interface_Spec.md",
+   "area": "21_Dashboards",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "21_Dashboards/Learner_Dashboard_Spec.md",
+   "area": "21_Dashboards",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "21_Dashboards/Manager_Dashboard_Spec.md",
+   "area": "21_Dashboards",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "22_Analytics/Analytics_Specification.md",
+   "area": "22_Analytics",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "23_Remediation/Remediation_Engine.md",
+   "area": "23_Remediation",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "24_Revalidation/Revalidation_Program.md",
+   "area": "24_Revalidation",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "25_References/Source_Library.md",
+   "area": "25_References",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "26_Asset_Licensing/Asset_Register.md",
+   "area": "26_Asset_Licensing",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "27_Deployment/Implementation_Guide.md",
+   "area": "27_Deployment",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "27_Deployment/QA_Report.md",
+   "area": "27_Deployment",
+   "status": "complete",
+   "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  }
+ ]
+}

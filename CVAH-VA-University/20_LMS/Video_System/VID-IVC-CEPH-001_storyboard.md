@@ -1,0 +1,5 @@
+# VID-IVC-CEPH-001 Storyboard — IV Catheter Placement (target 6:00)
+
+Cast/standards as VID-VEN. Model limb for all error demonstrations; live segments on staff-owned calm dog with real (ordered) placement OR full-model version if no case aligns.
+
+Shots: 1 cold open — secured, labeled, flushing catheter (0:05) · 2 flat-lay incl. tape strips pre-torn in order + primed T-port (0:25) · 3 ID + order check incl. gauge sanity ("22 g for this 18 kg dog") (0:20) · 4 clip + prep cycles, no-touch discipline (0:30) · 5 MACRO SLOW-MO the money shot: entry → flash → flatten+advance-unit-1-2mm → thread off stylet smooth (labels per phase; repeat ×2 speeds) (0:60) · 6 occlude-tip, stylet STRAIGHT to sharps (0:15) · 7 T-port on, first-flush diagnostics narrated (smooth? bleb? face?) (0:30) · 8 tape architecture 3 strips + one-finger test + label (0:45) · 9 post-wrap flush recheck + chart fields (0:20) · 10 ERROR SEGMENT (model, red border): immediate-thread failure shown from inside-view diagram; re-thread-over-stylet with cutaway diagram of shear + "NEVER" card; force-flush bleb (0:60) · 11 recap checklist card (0:20).

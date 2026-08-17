@@ -1,0 +1,16 @@
+# Pharmacy & Medication Handling Academy — Syllabus
+
+Version 1.0 · 2026-08-17 · Prereqs: Core Graduate; med-math ≥95%; TS-INJ-SQ-001 ≥8; clean documentation audit · Duration 4–6 weeks · Credential: **Pharmacy & Medication Handling** · Revalidation 24 months (controlled-substance module 12 months)
+
+Scope banner on every page: assistants prepare, verify, dispense-after-authorization, log, and steward inventory; they never prescribe, select, substitute, or adjust. Drug knowledge here is operational and safety-oriented, sourced to the latest legally accessible Plumb's edition and label documents — paraphrased, never reproduced.
+
+## Modules
+**PHA-M1 — Drug Literacy (wk 1).** Terminology system (generic/brand mapping for the house formulary `[CVAH-SPECIFIC INPUT REQUIRED: formulary export]`); major class map at recognition level (antibiotics, NSAIDs, opioids-awareness, steroids, cardiac, behavioral, endocrine, parasiticides) — what class implies for storage/handling/counseling-flag purposes only; dosage forms and why forms matter operationally (crush/split rules, transdermal glove rules, chew palatability=overdose-risk storage counseling flag).
+**PHA-M2 — Labels, Orders & Storage (wk 1–2).** Order-interpretation mastery incl. ambiguity-stop drills (the "0.5 dexamethasone" class of order); label anatomy expert level; storage map (refrigeration chains, light protection, humidity, the freezer-is-not-extra-fridge rule); expiration + beyond-use dating; receiving/quarantine workflow.
+**PHA-M3 — Calculations Mastery (wk 2–3).** Full calculation curriculum: dose→volume/tablets, %-solutions, mg/kg conversions both directions, days-supply and dispense-volume math, dilution preparation per protocol with verification, CRI-math AWARENESS (recognize the format; performing CRI setup remains CVT/DVM). Standard: 95% on the 40-problem masters set, error-pattern review on every miss. Skill: TS-PHA-103.
+**PHA-M4 — Controlled Substances (wk 3–4).** The hospital's DEA-registrant procedures in full: schedules awareness, log discipline (real-time, witnessed, balanced), storage/access rules, discrepancy = report-immediately doctrine, disposal witnessing, the audit posture (logs written as if the inspector reads them tomorrow — because they may). Skill: TS-PHA-102. 12-month revalidation on this module alone.
+**PHA-M5 — Safe Handling & Hazardous Drugs (wk 4).** House hazardous list (NIOSH-informed) with per-drug PPE cards; cytotoxic handling support rules; pregnancy-relevant items flagged; spill kits; sharps-in-pharmacy.
+**PHA-M6 — Error-Proofing & Dispensing Workflow (wks 5–6).** The dispensing line as a quality system: order→pull(read-aloud)→count/prepare→label→verify(CVT/DVM)→counsel-flag→log; LASA program stewardship (shelf audits, TALL-man maintenance — this credential OWNS the quarterly LASA audit); ADR intake workflow; near-miss/error reporting culture and the incident-analysis loop; inventory rhythm (par levels, order points, reconciliation). Skill: TS-PHA-101.
+
+## Credential gates
+QB-PHAR ≥85% (SC 100%) · calculations masters set ≥95% · PA-PHA-001: dispensing-line practical (incl. planted LASA trap, ambiguous order, count discrepancy — all must be caught) · controlled-log audit exercise clean · case requirement: 4 supervised pharmacy-duty weeks, zero unresolved discrepancies · Medical Reviewer countersign.

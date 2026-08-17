@@ -19,7 +19,7 @@ KEY: C. A, B, D each swap ritual for the two things that matter: organic-matter 
 ### SAF-004 | W0-03 | D1 | L1 | SC:Y
 Q: Arizona law absolutely reserves which set from veterinary assistants?
 A) Injections, radiographs, lab tests B) Restraint, TPR, dental polishing C) Anesthesia monitoring and recovery D) Diagnosis, prognosis, prescription, surgery
-KEY: D — A.R.S. § 32-2281. A and C list delegable tasks; B mixes delegable with policy-dependent.
+KEY: D — A.R.S. § 32-2211(5). A and C list delegable tasks; B mixes delegable with policy-dependent.
 
 ### SAF-005 | TS-SAN-001 | D2 | L3 | SC:N
 Q: After a parvo-suspect leaves exam 2, which product choice fails?

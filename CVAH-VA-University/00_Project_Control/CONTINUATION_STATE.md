@@ -1,17 +1,22 @@
 # Continuation State
 
+Last session: 2026-08 — **go-live maturation pass** (branch `agent/cvah-go-live-readiness`). Not a content-expansion pass: no new lessons, no new academies. Correctness, usability, adaptability, human review, and making the software harder to misuse.
+
+**Stage: `LOCALIZATION REQUIRED`** — see `Go_Live_Status.md`. That file, not this one, is the authority on readiness.
+
 Last build session: 2026-08-17 (second pass — depth & assessment directives applied). Build v1.1: v1.0 architecture + 10 benchmark Clinical Skill Courses, full question-bank anti-giveaway rewrite (294 items), perioperative flagship deepening (tiers, fault-finding, ECG/BP, sim library II, PA-PERIOP-EXAM). See Depth_and_Assessment_Audit_2026-08.md. The project is resumable from the manifest; nothing requires re-architecting.
 
-## What exists (summary)
-Governance + scope + competency framework (complete) · Technical Skills Library: 75-skill inventory, 28 full specs (complete for launch) · Core Academy: 30 lessons W0–W8 (complete) · Question banks: 294 items (launch target met; growth targets below) · Practical system: rubric standards, 11 rubric documents, 13-station graduation practical, case logs, 12 simulations (complete) · 7 specialty academies: syllabi + anesthesia deep lessons + specialty PAs (complete at launch depth) · Controlled references: system + 5 draft cards (PENDING DVM APPROVAL — hard gate) · Equipment registry: spec + survey + seeded rows (awaiting survey) · LMS: full deployment package (awaiting Phase-B execution) · Dashboards/analytics/remediation/revalidation/sources/licensing/deployment/QA (complete).
+## What changed in this pass
+Regulatory citations corrected repo-wide (§32-2281 → §32-2211(5); §32-2201 definitions added; supervision remapped to Arizona's two statutory states; T1/T2/T3 risk tiers with hard verification blockers) · Human-Centered Instruction Standard (binding on all future contributors) · CSC standard amended with technique-variation, what-may-vary, and precision-audit sections, retrofitted to all ten benchmark courses · language precision sweep · Now/Next/Later learner focus model · production/review build separation with no unapproved numerics in the learner build · troubleshooting index moved out of the renderer into reviewable data · builder made portable and self-describing · six-stage go-live ladder · pilot feedback loop with a binding build gate · automated QA suite (13 checks) wired into CI.
 
-## Next-builder queue (priority order)
-1. Phase-A localization (see Implementation Guide) — human gates, not authoring.
-2. Author remaining 47 skill specs from template — safety-critical ones now also require a CSC-grade teaching companion per CSC_Standard.md; benchmark courses are the quality floor (order: VA1 skills first: HND-002..005, RES-004, ASM-002..005, SAN-002; then VA2: IVC-002, SAM-002..004, LAB-003, FLU-003, SUR-002/003, PRO-001..005; then specialty TS-* rows).
-3. Grow QB-CORE 183→400 (per-domain targets in manifest); build recognition-battery media items 13–40.
-4. Produce INT-01..09 interactives and first 4 videos per production queue.
-5. Post-equipment-survey: Lab Academy analyzer modules + pump/imaging job aids.
-6. Convert QB files → GIFT at LMS import (regex pattern documented in deployment guide).
+## Next-builder queue — READ THE GATE FIRST
+> **`Pilot_Feedback_Loop.md` §4 blocks bulk authoring of the remaining 44 skill specifications until one pilot cycle has completed and been written up.** The only exception is a safety-critical gap found during the pilot. This gate is enforced by `qa_check.py`. Do not "helpfully" clear the backlog.
 
-## Standing rules for any continuing builder
-Keep canonical content here (never LMS-only) · every clinical change through medical review · CRC numeric discipline absolute · update BUILD_MANIFEST.json and this file each session.
+1. **Human work, not builder work** — Phase A localization: T2 scope verification, reference-card approval, the R1a review question on each course, equipment survey, placeholder resolution. Nothing below matters until these move.
+2. Run the pilot. Collect the ten signals. Write up the findings.
+3. *Then* revise existing modules in the order the pilot's "what did you still have to explain" data dictates — and **cut** what the overexplained signal identifies. The next cycle is expected to remove material, not only add it.
+4. Then author remaining specs, prioritised by what the pilot showed people needed and could not find, using a template corrected by the findings.
+5. Equipment-dependent modules (Lab analyzers, imaging, pumps) unblock when the registry is populated.
+
+## Standing rules for any contributor
+Canonical content in the repository, never LMS-only · every clinical change through medical review · no high-risk numerics outside approved Controlled Reference Cards · the renderer renders and never authors · `qa_check.py` must pass before commit · only a human advances the go-live stage · update this file and `BUILD_MANIFEST.json` each session.

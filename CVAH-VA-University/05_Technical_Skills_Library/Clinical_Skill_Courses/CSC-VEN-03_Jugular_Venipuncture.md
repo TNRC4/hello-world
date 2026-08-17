@@ -42,5 +42,20 @@ PEARLS: strum-test practice on calm patients during TPRs costs nothing and build
 ## 12–13. Visuals & assessment
 VID-VEN-JUG-001 storyboard: groove anatomy overlay on a short-coated dog, dam placement macro, the strum test in slow motion, correct vs hyperextended head position side-by-side, the neutral-head pressure hold, feline edge-of-table setup. Knowledge: QB-CORE-VEN jugular items (SC). Practical: PA-VEN-CEPH-001 jugular anchor set (+ coagulopathy screening verbalized ★, neutral-neck recheck ★). Case log: 3 observed + 5 coached (≥2 feline) under S1; state 9→10 needs 10 logged.
 
+## 14. Technique variation & house standard
+**Outcome requirements:** adequate volume in one clean stick, an airway never compromised, a neck with no developing hematoma, and a screening decision you can defend.
+
+**CVAH house standards** `[HOUSE]`: screening before every jugular (reason: neck hematomas are the one venipuncture complication that can threaten an airway); first live jugulars at S1 with a senior at the table (reason: training risk, not legal restriction); double site-recheck before kennel return.
+
+**Genuinely variable:** needle direction — head-ward versus chest-ward is a real house-convention question CVAH has not yet settled `[CVAH-SPECIFIC INPUT REQUIRED: standardize direction]`, and until it does, **either direction performed competently is correct**; sitting versus sternal-at-table-edge for cats; strum-test versus pure palpation for vessel confirmation; thumb versus flat-fingers damming.
+
+## 15. What may vary without being wrong
+> Do not fail a learner for: entry direction, until standardized · finding the vessel by palpation without a strum test, if they can show you they are on it · choosing the other side · declining the draw on screening grounds — **declining correctly is a pass, not an avoidance** · handing off to the senior after one failure rather than two.
+
+## 16. Precision audit
+`[GUIDE]`: 25–30° entry · "maybe 45°" nose elevation — an image, not a protractor reading · 3–5 second fill.
+`[HOUSE]`: screening checklist · S1 until VA3 · neutral-neck pressure and double recheck.
+`[SAFETY]`: no jugular on suspected coagulopathy · no hyperextension in respiratory patients · arterial stick = five minutes' pressure and immediate report.
+
 ---
-*Reviews:* R1: added strum test, carotid touch-training, statue-hand cue, five-minute arterial-stick protocol. R2: dam location, stick-above-thumb geometry, and both-recheck cadence now impossible to miss. R3: hospital gains volume draws and kitten/tiny-patient sampling without pulling the DVM, at S1→S2 with screening literacy built in.
+*Reviews (R1a — would an experienced CVAH technician disagree that any one method is presented as the only correct method? **Pending human review at pilot; see `00_Project_Control/Pilot_Feedback_Loop.md`**):* R1: added strum test, carotid touch-training, statue-hand cue, five-minute arterial-stick protocol. R2: dam location, stick-above-thumb geometry, and both-recheck cadence now impossible to miss. R3: hospital gains volume draws and kitten/tiny-patient sampling without pulling the DVM, at S1→S2 with screening literacy built in.

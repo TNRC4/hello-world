@@ -26,7 +26,7 @@ Purpose: capture the hospital-specific facts the University needs to localize. T
 
 ## D. Protocols and policy
 17. Existing written protocols (surgical prep, anesthesia monitoring, cleaning/disinfection, controlled substances). Attach copies.
-18. Hospital policy on assistant IM/IV-push medication administration under A.R.S. § 32-2281 supervision rules — what does CVAH permit assistants to do, and under which supervision level?
+18. Hospital policy on assistant IM/IV-push medication administration under the A.R.S. § 32-2201(8)/(11) supervision definitions — what does CVAH permit assistants to do, and under which supervision level? These are higher-risk rows requiring current Board-rule and CVAH-policy verification; they are NOT settled by the § 32-2211(5) exemption alone.
 19. Restraint policy limits (max people per patient, sedation-first thresholds, muzzle policy).
 20. Controlled-substance logging procedure and storage.
 21. Radiation safety: dosimetry badges? Who holds the program?

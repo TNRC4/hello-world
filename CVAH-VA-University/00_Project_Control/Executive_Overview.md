@@ -40,7 +40,7 @@ Graduation is competency-based, never calendar-based. Every significant skill re
 | Technical Skills Library | 100+ inventoried skills; full structured specifications for all safety-critical core skills |
 | Assessment system | Diagnostic pretest, per-lesson checks, module quizzes, ~300-item question banks, cumulative final, 13-station graduation practical |
 | Specialty academies | 7 post-core credentials with own syllabi, exams, practical assessments, case requirements |
-| Governance | Arizona scope matrix (A.R.S. § 32-2281; A.A.C. R3-11), medical review workflow, controlled references, revalidation program |
+| Governance | Arizona scope matrix (A.R.S. § 32-2211(5) exemption; § 32-2201 definitions; A.A.C. R3-11), medical review workflow, controlled references, revalidation program |
 | Delivery | Moodle-based LMS deployment package; all canonical content kept portable in Markdown/CSV/JSON in this repository |
 
 ## What CVAH must supply before go-live

@@ -3,7 +3,10 @@
 Version 1.0 · 2026-08-17 · Rule: every major clinical module cites here; verify currency at deployment and at each annual review. Prioritization per charter: AZ regulatory → federal → specialty organizations → AAHA/AVMA/RECOVER/AAFP → consensus statements → peer-reviewed → major texts → manufacturer docs → pharmacology references.
 
 ## Regulatory (Tier 1–2)
-- Arizona Revised Statutes Title 32, Ch. 21 (Veterinarians), esp. § 32-2281 (veterinary assistants; supervision). Arizona State Veterinary Medical Examining Board — vetboard.az.gov → Statutes & Rules.
+- **A.R.S. § 32-2211(5)** — "Exceptions from application of chapter"; the veterinary-assistant exemption. Verified against azleg.gov 2026-08-17.
+- **A.R.S. § 32-2201** — definitions: direct supervision (8), indirect supervision (11), supervising veterinarian (21), veterinary assistant (26). Verified against azleg.gov 2026-08-17.
+- **A.R.S. § 32-2281** — "Dispensing of drugs and devices; conditions; definition." Relevant ONLY to dispensing workflow (Pharmacy Academy); never cite it as an assistant-scope statute.
+- Arizona State Veterinary Medical Examining Board — vetboard.az.gov → Statutes & Rules; A.A.C. Title 3 Ch. 11 for Board rules.
 - Arizona Administrative Code Title 3, Ch. 11 (Veterinary Medical Examining Board), esp. R3-11-605 (Certified Veterinary Technician services). azsos.gov compilation; Cornell LII mirror.
 - DEA controlled-substance regulations (registrant recordkeeping) — deadiversion.usdoj.gov.
 - OSHA: bloodborne pathogens/sharps (29 CFR 1910.1030), hazard communication (1910.1200); NIOSH hazardous-drug list and veterinary safety guidance.

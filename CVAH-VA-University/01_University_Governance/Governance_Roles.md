@@ -11,7 +11,7 @@ Owns: enrollment, LMS administration, manifest maintenance, analytics reporting,
 Owns: clinical accuracy of all content; approval of every Controlled Reference Card; sign-off on any MAJOR content revision; final authority on competency disputes. Must be an Arizona-licensed veterinarian. Tools: medical review workflow (`Medical_Review_Workflow.md`), controlled-reference register.
 
 ## 3. Supervising Veterinarian
-The licensed veterinarian responsible under A.R.S. § 32-2281 for care rendered by assistants on shift. Confirms supervision-level requirements in the scope matrix are honored in daily assignment. Signs VA-level advancements and specialty credentials jointly with an assessor.
+The licensed veterinarian responsible for care rendered by assistants on shift — the "supervising veterinarian" of A.R.S. § 32-2201(21), operating within the § 32-2211(5) exemption. Confirms supervision-level requirements in the scope matrix are honored in daily assignment. Signs VA-level advancements and specialty credentials jointly with an assessor.
 
 ## 4. Supervising Technician (CVT preferred)
 Day-to-day clinical mentor. Identifies practice opportunities during shifts, provides coached repetitions, records case-log entries, flags learners for practical assessment readiness.

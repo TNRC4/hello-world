@@ -42,5 +42,20 @@ PEARLS: warm the leg through the towel while setting up — free 30% vein diamet
 ## 12–13. Visuals & assessment
 VID-VEN-SAPH-001 (production storyboard: overhead of the full towel setup, macro of inguinal occlusion hand-shape, correct vs pinch-occlusion, entry at correct angle vs "dog-depth" error on model). Knowledge: QB-CORE-VEN feline items. Practical: PA-VEN-CEPH-001 with saphenous anchors. Case log: ≥5 coached incl. ≥2 feline medial saphenous.
 
+## 14. Technique variation & house standard
+**Outcome requirements:** usable sample, cat still handleable at the end, no bruise, no sharps incident, and the cat's next visit not made worse.
+
+**CVAH house standards** `[HOUSE]`: towel-first for flagged or unknown cats (reason: minimal-restraint policy, staff-injury history, and cats that stop being examinable); stop instantly on open-mouth breathing (reason: that is decompensation, not stress); pressure held long enough that the inner thigh doesn't bruise where the owner will see it.
+
+**Genuinely variable here:** which end of the ribbon you work — hock-first is a preference, not a rule; burrito wrap direction; head covered versus uncovered (the cat votes); inguinal occlusion with flat fingers versus a thumb; sitting versus standing to work.
+
+## 15. What may vary without being wrong
+> Do not fail a learner for: working the vessel higher or lower along the tibia · a wrap that contains the cat by a different fold pattern · choosing the other hindlimb · a 25 g needle where the rubric imagined 23 g, or a butterfly instead of either · accepting a smaller volume and asking which test matters most · abandoning the site early because the cat's window closed — **that is judgment, and it should score well, not badly.**
+
+## 16. Precision audit
+`[GUIDE]`: 10–20° entry angle · the 60–90 second patience window · 1–3 mL syringe · 20–40 second fill · 60–90 second pressure.
+`[HOUSE]`: towel-first for flagged cats · one-attempt budget on fractious patients before regrouping.
+`[SAFETY]`: open-mouth breathing = stop · arterial stick = pressure and report, never conceal.
+
 ---
-*Reviews:* R1: added inguinal hand-shape cue, hock-first site strategy, arterial-stick honesty rule. R2: holder vs operator geometry explicit; 60–90 s patience window named; kick warning signs given. R3: hospital gains cat draws that don't require the two strongest staff and a recovery period for everyone involved.
+*Reviews (R1a — would an experienced CVAH technician disagree that any one method is presented as the only correct method? **Pending human review at pilot; see `00_Project_Control/Pilot_Feedback_Loop.md`**):* R1: added inguinal hand-shape cue, hock-first site strategy, arterial-stick honesty rule. R2: holder vs operator geometry explicit; 60–90 s patience window named; kick warning signs given. R3: hospital gains cat draws that don't require the two strongest staff and a recovery period for everyone involved.

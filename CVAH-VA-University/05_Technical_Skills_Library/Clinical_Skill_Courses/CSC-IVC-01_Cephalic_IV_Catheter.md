@@ -49,5 +49,21 @@ VID-IVC-CEPH-001 (storyboard exists — includes the money-shot slow-mo of flatt
 ## 13. Assessment & competency links
 Knowledge: QB-CORE-IVC (rewritten; SC items 100%). Practical: PA-IVC-CEPH-001 (includes damaged-packaging reject, kitten-gauge query probe, and the won't-thread options probe). Case log: TS-IVC-CEPH-001 §24 — model ×10 with BOTH sensations drilled, observed ×3, coached ×5 (≥1 cat, ≥1 dog); 12 logged for state 10, ≥3 patient categories.
 
+## 14. Technique variation & house standard
+**Outcome requirements:** a catheter whose plastic sits in the lumen, flushes without resistance or bleb, is secured so a tug reaches the tape and not the vein, is labelled, and survives the shift.
+
+**CVAH house standards** `[HOUSE]`: distal-first siting (reason: preserves the vein above for the retry); label every catheter with date/time/gauge/initials (reason: dwell-time surveillance for phlebitis); post-wrap re-flush (reason: taping kinks catheters, and the night shift inherits what you didn't check).
+
+**Genuinely variable:** tape architecture — the three-strip pattern taught here is one good method among several that achieve anchor + stabilize + strain-relief; some experienced people here butterfly the first strip, others use a chevron; T-port versus injection cap; damming with thumb-over-tip versus hub pressure; one-handed versus two-handed threading.
+
+## 15. What may vary without being wrong
+> Do not fail a learner for: a different but sound tape pattern that passes the one-finger test and directs strain to tape · gauge choice one size either way when clinically reasonable and the order didn't specify · aspirating to confirm before flushing, or not · a quarter-turn while threading · removing a hesitant catheter early rather than working it — **early removal of a doubtful catheter is good judgment.**
+
+## 16. Precision audit
+`[EVIDENCE/mechanical]`: the 1–2 mm advance after flash reflects real catheter geometry — the plastic tip trails the steel — so it is not arbitrary scaffolding.
+`[GUIDE]`: 15–25° entry · 1–3 mL flush volume · 90-second taping target · ≥10 model placements.
+`[HOUSE]`: distal-first · labelling · post-wrap re-flush.
+`[SAFETY]`: **never re-advance a catheter over its stylet** (shear and embolism — this absolute is load-bearing and stays) · stylet direct to sharps · never force a flush.
+
 ---
-*Reviews:* R1: added the three-sensation thumb kit, tape-before-stick staging, statue-hand threading, fall-out tip-inspection rule. R2: every hand's job named at every step; both failure sensations trained on model before live. R3: PLACER track returns a CVT's 10–15 min per placement; ASSIST track still yields the hospital a staging-and-maintenance specialist who catches infiltrations before pumps do.
+*Reviews (R1a — would an experienced CVAH technician disagree that any one method is presented as the only correct method? **Pending human review at pilot; see `00_Project_Control/Pilot_Feedback_Loop.md`**):* R1: added the three-sensation thumb kit, tape-before-stick staging, statue-hand threading, fall-out tip-inspection rule. R2: every hand's job named at every step; both failure sensations trained on model before live. R3: PLACER track returns a CVT's 10–15 min per placement; ASSIST track still yields the hospital a staging-and-maintenance specialist who catches infiltrations before pumps do.

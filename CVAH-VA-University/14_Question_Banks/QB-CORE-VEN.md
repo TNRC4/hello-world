@@ -1,126 +1,127 @@
 # QB-CORE-VEN — Venipuncture & Samples (25 items)
+Rewritten to Assessment_Item_Quality_Standard 2026-08. Flagship bank: distractor rationales included.
 
-### VEN-001 | TS-VEN-CEPH-001 | D1 | Recall | SC:N
-Q: The cephalic vein runs along the:
-A) Palmar carpus B) Dorsomedial (cranial) antebrachium C) Lateral thigh D) Ventral neck
-KEY: B.
+### VEN-001 | TS-VEN-CEPH-001 | D1 | L1 | SC:N
+Q: Which vessel runs along the dorsomedial (cranial) surface of the antebrachium?
+A) Lateral saphenous B) Medial saphenous C) Cephalic D) Accessory jugular
+KEY: C. A and B are hindlimb vessels — the classic mix-up when learners memorize names without location; D is not a standard sampling vessel name.
 
-### VEN-002 | TS-VEN-CEPH-001 | D1 | Recall | SC:Y
-Q: After how many unsuccessful attempts must you hand off?
-A) 1 B) 2 C) 3 D) When frustrated
-KEY: B — Two-attempt rule, absolute at core level.
+### VEN-002 | TS-VEN-CEPH-001 | D2 | L3 | SC:Y
+Q: Your second stick on a calm patient just failed. The veins still look reasonable and the sample is routine. What does the attempt rule require?
+A) One more attempt on the other forelimb B) Hand off to a senior teammate C) A 10-minute rest, then retry D) Switch to a saphenous site yourself
+KEY: B. A, C, and D all feel reasonable and are exactly how vein damage and patient sensitization accumulate — the two-attempt limit is absolute at core level regardless of site or timing.
 
-### VEN-003 | TS-VEN-CEPH-001 | D2 | Apply | SC:N
-Q: Flash appears, then blood stops on aspiration. First moves:
-A) Withdraw fully at once B) Aspirate harder C) Drop the angle, advance 1–2 mm/rotate slightly, ease suction D) Shake the syringe
-KEY: C — Bevel likely against wall or vein collapsing. [DIST: B worsens collapse/hemolysis.]
+### VEN-003 | TS-VEN-CEPH-001 | D2 | L4 | SC:N
+Q: Clear flash, then flow stops. The patient hasn't moved and occlusion is unchanged. Which mechanical explanations should you consider FIRST?
+A) Bevel against the vessel wall or vein collapsing under suction B) Clot in the hub or expired vacuum in the tube C) Occlusion released early or restraint slipping D) Needle too small for the requested volume
+KEY: A — both respond to the same corrections: flatten, rotate slightly, ease the pull. B happens but later in a slow draw, not seconds in; C contradicts the stem; D causes slow flow, not sudden stops.
 
-### VEN-004 | TS-VEN-CEPH-001 | D2 | Apply | SC:Y
-Q: Correct end-of-draw order:
-A) Withdraw needle, then release occlusion B) Release occlusion, then withdraw, then pressure C) Pressure, then withdraw D) Any order
-KEY: B — Withdrawing against occlusion pressurizes the puncture = hematoma.
+### VEN-004 | TS-VEN-CEPH-001 | D2 | L3 | SC:Y
+Q: The syringe is full. Put these in the correct order: (1) withdraw needle (2) firm site pressure (3) holder releases occlusion.
+A) 1, 3, 2 B) 3, 1, 2 C) 1, 2, 3 D) 2, 3, 1
+KEY: B. Withdrawing against an occluded, pressurized vein (A and C) is the classic hematoma mechanism; D is not physically sensible. Occlusion off → needle out → pressure on.
 
-### VEN-005 | TS-SAM-001 | D2 | Apply | SC:N
-Q: Hemolysis is most commonly caused in-house by:
-A) Patient disease usually B) Hard aspiration, needle-through-stopper transfer, shaking C) Cold weather D) Correct technique
-KEY: B — All operator-controllable.
+### VEN-005 | TS-SAM-001 | D2 | L4 | SC:N
+Q: Serum from this morning's draw is distinctly pink. The patient is clinically fine. Which step in YOUR workflow is the most likely cause?
+A) Letting alcohol dry before the stick B) Using a 22 g needle in a large dog C) Filling the EDTA tube before the red top D) Pulling hard on the plunger when flow slowed
+KEY: D — operator-generated shear is the top in-house hemolysis cause. A is good technique, not a cause; B is an appropriate choice; C is a fill-order question, not a hemolysis mechanism.
 
-### VEN-006 | TS-SAM-001 | D1 | Recall | SC:N
-Q: CBC goes in which tube, treated how?
-A) Red, shaken B) Lavender/EDTA, filled to line, 8–10 gentle inversions immediately C) Blue, half-filled D) Any, refrigerated
-KEY: B.
+### VEN-006 | TS-SAM-001 | D1 | L2 | SC:N
+Q: A CBC sample is handled correctly when it goes into which tube, treated how?
+A) Red top, allowed to clot upright B) Lavender top, topped off from the red tube C) Blue top, filled halfway, shaken briefly D) Lavender top, filled to line, inverted gently at once
+KEY: D. A yields serum (no cells to count); B contaminates with clot activator — a real bench shortcut that ruins both samples; C is doubly wrong (fill line + shaking).
 
-### VEN-007 | TS-SAM-001 | D2 | Apply | SC:Y
-Q: A citrate (blue) coag tube filled to 60%. It is:
-A) Fine B) Invalid — the 9:1 blood:citrate ratio is broken; redraw C) Better than nothing — submit D) Fixable by topping with red-tube blood
-KEY: B — [DIST: D contaminates with clot activator/wrong matrix.]
+### VEN-007 | TS-SAM-001 | D2 | L3 | SC:Y
+Q: A coagulation (citrate) tube ends up 60% full. The best available action is:
+A) Submit it with a note about the short fill B) Top it off from the same patient's EDTA tube C) Redraw — the tube is not usable D) Spin it promptly to protect the factors
+KEY: C — the 9:1 ratio is broken; relative citrate excess falsely prolongs times. A submits known-bad data; B adds the wrong anticoagulant matrix; D preserves a sample that was invalid at the moment of filling.
 
-### VEN-008 | TS-VEN-JUG-001 | D2 | Apply | SC:Y
-Q: Absolute assistant no-go for jugular venipuncture:
-A) Large dog B) Suspected coagulopathy (e.g., rodenticide) C) After a meal D) Morning draws
-KEY: B — Neck hematoma can compress the airway; escalate.
+### VEN-008 | TS-VEN-JUG-001 | D2 | L3 | SC:Y
+Q: Which patient is an absolute assistant no-go for jugular venipuncture, requiring escalation instead?
+A) A tense but healthy young Rottweiler B) A cat 4 days after routine dental extractions C) A dog with suspected rodenticide exposure D) An obese Labrador with a short neck
+KEY: C — possible coagulopathy; a jugular hematoma can compress the airway. A is a restraint-planning problem, B is routine, D is technically harder but permitted — difficulty and contraindication are different categories.
 
-### VEN-009 | TS-VEN-SAPH-001 | D2 | Apply | SC:N
-Q: The feline vessel that best combines size, access, and low-stress positioning:
-A) Cephalic always B) Medial saphenous C) Jugular only D) Ear vein
-KEY: B — Large, flat, towel-compatible.
+### VEN-009 | TS-VEN-SAPH-001 | D2 | L3 | SC:N
+Q: A fractious-leaning cat needs a CBC and chemistry. Which site pairs best with low-stress towel restraint?
+A) Jugular with the cat wrapped and head raised B) Cephalic with a second holder added C) Medial saphenous in lateral within the towel D) Lateral saphenous in standing position
+KEY: C — large flat vessel, accessible under a wrap, spares the neck and forelimbs. A puts hands near a stressed cat's face; B stacks handlers (escalation, not de-escalation); D isn't a practical feline standing site.
 
-### VEN-010 | TS-VEN-CEPH-001 | D2 | Apply | SC:N
-Q: "One attempt" ends when:
-A) You feel like it B) The needle fully exits the skin C) Five minutes pass D) The tube is full
-KEY: B — Subcutaneous redirects are the same attempt.
+### VEN-010 | TS-VEN-CEPH-001 | D1 | L2 | SC:N
+Q: For the two-attempt rule, one "attempt" ends when:
+A) The needle fully exits the skin B) You redirect under the skin C) Five minutes have passed D) You release the occlusion
+KEY: A. B is the point learners most often miscount — subcutaneous redirects are the SAME attempt; C and D have no bearing on the count.
 
-### VEN-011 | TS-VEN-CEPH-001 | D2 | Apply | SC:N
-Q: Veins flat in a vomiting, dehydrated dog. Smart adaptations:
-A) Bigger syringe, pull harder B) Smaller syringe/butterfly, warm limb, gentle aspiration — and lowered threshold to escalate C) Many quick jabs D) Jugular immediately yourself
-KEY: B.
+### VEN-011 | TS-VEN-CEPH-001 | D3 | L4 | SC:N
+Q: Vomiting, dehydrated dog; veins are flat and slow to fill. Which adaptation set fits this patient?
+A) Butterfly set, warmed limb, gentle aspiration B) Larger syringe to finish in one pull C) Immediate jugular attempt for better volume D) Longer occlusion — three minutes if needed
+KEY: A — smaller dead-space, less collapse, patience. B increases collapse and hemolysis in exactly this patient; C skips the escalation conversation dehydrated patients deserve; D adds hemoconcentration artifact on top of a sick patient's chemistry.
 
-### VEN-012 | TS-SAM-001 | D2 | Apply | SC:Y
-Q: Sample labeling happens:
-A) At the bench later B) At patient-side, immediately C) Whenever D) Only for send-outs
-KEY: B — Unlabeled = discard-level error.
+### VEN-012 | TS-SAM-001 | D2 | L3 | SC:Y
+Q: You're carrying two filled, unlabeled tubes to the bench "to label there" when a coworker asks for restraint help. What has already gone wrong?
+A) Nothing yet, if you label within a few minutes B) The tubes left the patient's side unlabeled C) You should have declined the restraint request D) The tubes should have been chilled first
+KEY: B — labeling happens AT patient-side, before anything else claims your attention; the interruption in the stem is exactly how swaps happen. A is the rationalization that causes them; C addresses the wrong link in the chain; D is irrelevant here.
 
-### VEN-013 | TS-SAM-001 | D2 | Apply | SC:N
-Q: Syringe-to-tube transfer best practice:
-A) Push hard through the stopper B) Remove needle (or use transfer device), run blood down tube wall gently C) Squirt from height D) Shake to mix after
-KEY: B.
+### VEN-013 | TS-SAM-001 | D2 | L3 | SC:N
+Q: Best transfer of syringe blood into tubes:
+A) Through the stopper with the needle still attached B) Needle off, then shake each tube to mix fast C) Rapid squirt to beat the clotting clock D) Needle off, blood run gently down the tube wall
+KEY: D. A hemolyzes and is a sharps risk; B fixes mixing with the one motion that lyses cells; C's speed instinct is right but the force hemolyzes — gentle AND prompt is the skill.
 
-### VEN-014 | TS-LAB-002 | D2 | Apply | SC:N
-Q: Plasma in the spun hematocrit tube is pink. You:
-A) Report PCV only, no comment B) Record/report hemolysis with the values — it changes interpretation C) Discard silently D) Add saline
-KEY: B — Plasma color is a finding.
+### VEN-014 | TS-LAB-002 | D2 | L3 | SC:N
+Q: Spun hematocrit shows plasma with a milky-white haze. Along with the PCV/TS you should report:
+A) Suspected hemolysis from the draw B) That the sample must be redrawn now C) Lipemia — noting TS may read falsely high D) That the centrifuge needs service
+KEY: C. A is the wrong artifact (that's pink); B over-reacts — lipemia is usually patient-state (non-fasted), a finding to flag, not automatically a redraw; D blames equipment for a sample characteristic.
 
-### VEN-015 | TS-LAB-001 | D2 | Apply | SC:N
-Q: Your smear is thick and ends abruptly with no feathered edge. Cause and fix:
-A) Too little blood; bigger drop B) Spreader angle too steep/drop too big; lower angle, smaller drop, remake C) Slide too clean D) Blood too old only
-KEY: B.
+### VEN-015 | TS-LAB-001 | D2 | L4 | SC:N
+Q: Your smear is short and thick with an abrupt end. Which single change most directly fixes the next one?
+A) Push the spreader slide faster B) Use a larger drop of blood C) Lower the spreader angle D) Dry the slide more slowly
+KEY: C — steep angle is the classic cause of short/thick. A addresses thin-and-long problems; B makes this exact fault worse; D creates crenation artifact and fixes nothing.
 
-### VEN-016 | TS-VEN-CEPH-001 | D2 | Apply | SC:Y
-Q: During a draw the cat starts open-mouth breathing. You:
-A) Finish the tube first B) Stop immediately, release positioning, alert C) Switch legs D) Aspirate faster
-KEY: B — Patient survival outranks sample.
+### VEN-016 | TS-VEN-CEPH-001 | D2 | L3 | SC:Y
+Q: Mid-draw, the cat starts open-mouth breathing. The tube is two-thirds full and you need 0.5 mL more. You:
+A) Finish the last half mL — seconds matter less than a redraw B) Pause, let the cat settle, then resume C) Stop now, release positioning, alert the CVT D) Have the holder loosen slightly while you finish
+KEY: C. Open-mouth breathing in a restrained cat is decompensation until proven otherwise. A and D negotiate with an emergency; B misreads it as stress that settles — the patient outranks any sample, full stop.
 
-### VEN-017 | TS-SAM-001 | D1 | Recall | SC:N
-Q: Serum comes from which tube?
-A) EDTA B) Heparin C) Clot/red-top (or SST), after clotting and spin D) Citrate
-KEY: C.
+### VEN-017 | TS-SAM-001 | D1 | L1 | SC:N
+Q: Serum for a chemistry panel comes from:
+A) An EDTA tube after spinning B) A heparin tube after spinning C) A citrate tube filled to line D) A clot/red-top tube after clotting and spinning
+KEY: D. A and B yield plasma — the distinction learners blur; C is dedicated to coagulation testing.
 
-### VEN-018 | TS-LAB-002 | D2 | Apply | SC:N
-Q: Microhematocrit tubes load into the centrifuge:
-A) Clay inward B) Clay outward against the gasket, balanced, lid on C) Unbalanced is fine D) Without sealing
-KEY: B.
+### VEN-018 | TS-LAB-002 | D2 | L3 | SC:N
+Q: Loading microhematocrit tubes correctly means:
+A) Clay out against the gasket, balanced, lid secured B) Clay inward so it can't fly out, lid secured C) Both tubes side by side for easy reading D) Clay out, lid open slightly to vent heat
+KEY: A. B sprays blood through the tube on spin-up (the intuitive-but-backward choice); C unbalances the rotor; D is unsafe — lids are never open.
 
-### VEN-019 | TS-VEN-CEPH-001 | D3 | Analyze | SC:N
-Q: Potassium comes back oddly high; the draw took 3 minutes of occlusion and the plasma is pink. Likely contributor:
-A) Kidney failure certainly B) Preanalytic artifact (prolonged occlusion + hemolysis) — flag to the DVM with the draw notes C) Lab error only D) Diet
-KEY: B — Your draw notes let the DVM interpret correctly.
+### VEN-019 | TS-VEN-CEPH-001 | D3 | L5 | SC:N
+Q: Potassium is unexpectedly high. Your draw notes read: "3 min occlusion, slow flow, plasma slightly pink." What do you tell the DVM?
+A) The analyzer likely needs QC before the result is trusted B) The value may be artifactual — prolonged stasis plus mild hemolysis C) The patient probably has kidney disease D) The sample was fine; the potassium must be real
+KEY: B — your preanalytic notes are exactly what lets the DVM weigh artifact against disease. A jumps to equipment with no evidence; C is diagnosis and not yours; D overstates what a flagged draw can promise.
 
-### VEN-020 | TS-SAM-004 | D2 | Apply | SC:N
-Q: Cytology slides are stored/shipped:
-A) With the formalin jar, snugly B) Away from formalin — fumes fix cells and ruin staining C) Refrigerated with biopsy D) However
-KEY: B — Classic ruin-everything packing error.
+### VEN-020 | TS-SAM-004 | D2 | L3 | SC:N
+Q: Packing a send-out with biopsy (formalin jar) and cytology slides, you should:
+A) Separate them — formalin fumes fix and ruin the slides B) Refrigerate the whole package to preserve both C) Wrap them together tightly so nothing shifts D) Put the slides inside the formalin box for protection
+KEY: A. C and D are the classic ruin-everything packing choices; B chills the formalin unnecessarily and still leaves fumes with the slides.
 
-### VEN-021 | TS-VEN-CEPH-001 | D2 | Apply | SC:N
-Q: Why not draw from a limb with an IV catheter running fluids?
-A) It's rude B) Sample dilution/contamination by infusate C) The vein is gone D) Tape is sticky
-KEY: B — Draw from another site or per CVT direction.
+### VEN-021 | TS-VEN-CEPH-001 | D2 | L3 | SC:N
+Q: The right forelimb has fluids running. The order asks for a chemistry panel. Best plan:
+A) Draw distal to the catheter on the right B) Draw from another site entirely C) Pause the pump for one minute, then draw on the right D) Draw straight from the catheter's injection port
+KEY: B. A and C still risk infusate dilution in the vessel; D is a technique reserved for specific protocols with defined discard volumes — not a default assistant move.
 
-### VEN-022 | TS-RES-003 | D2 | Apply | SC:N
-Q: Your holder keeps occlusion light and the vein won't stand. Best fix:
-A) Stick anyway B) Coach: firmer thumb occlusion at the elbow crook with slight lateral roll, wait seconds for filling C) Blame the patient D) Use a tourniquet at the paw
-KEY: B — The holder makes the draw.
+### VEN-022 | TS-RES-003 | D2 | L4 | SC:N
+Q: Your holder's occlusion is soft and the vein won't stand. The most useful coaching cue is:
+A) "Firm thumb across the elbow crook, roll it out slightly, give it a few seconds" B) "Squeeze the whole leg harder until the vein has no choice" C) "Hold the paw much tighter so the leg absolutely cannot move" D) "Slide your thumb down near the carpus and press there instead"
+KEY: A — occlude + lateral roll + patience is the whole hold. B provokes struggling without occluding the right vessel; C fixes movement, not filling; D occludes below the draw site, which does nothing.
 
-### VEN-023 | TS-SAM-001 | D2 | Recall | SC:N
-Q: With a syringe draw and coags ordered, house fill order starts with:
-A) Red B) Citrate (blue) first, then EDTA, then others C) Whatever's closest D) Gray
-KEY: B — Clot clock; anticoagulant-critical tubes first per house convention.
+### VEN-023 | TS-SAM-001 | D2 | L2 | SC:N
+Q: Syringe draw; coags plus CBC ordered and volume is tight. House fill order starts with:
+A) EDTA, because the CBC clots fastest B) Red top, so clot activator isn't carried over C) Citrate, then EDTA, then the rest D) Whichever tube is closest to expiring
+KEY: C — the ratio-critical citrate tube wins the race, then EDTA. A has the right instinct (clot clock) aimed at the wrong tube; B inverts the carryover logic; D confuses inventory with chemistry.
 
-### VEN-024 | TS-VEN-JUG-001 | D2 | Apply | SC:Y
-Q: Post-jugular-draw, before kennel return, you must:
-A) Nothing special B) Recheck the site for hematoma with neck in neutral C) Feed the patient D) Collar check only
-KEY: B — Missed neck hematomas are dangerous.
+### VEN-024 | TS-VEN-JUG-001 | D2 | L3 | SC:Y
+Q: After a jugular draw, before the patient goes back in the kennel, you must:
+A) Recheck the site with the neck in neutral position B) Apply a light neck wrap for an hour C) Offer food to confirm swallowing is normal D) Take a full TPR to document stability
+KEY: A — a missed neck hematoma is the dangerous jugular-specific complication. B over-treats and can itself compromise the airway; C and D are reasonable-sounding general care that miss the site-specific check.
 
-### VEN-025 | TS-LAB-002 | D1 | Recall | SC:N
-Q: The refractometer's daily QC is:
-A) Battery check B) Zero with distilled water C) Sunlight calibration D) None needed
-KEY: B.
+### VEN-025 | TS-LAB-002 | D1 | L1 | SC:N
+Q: The refractometer's daily QC step is:
+A) Reading a known serum standard B) Zeroing with distilled water C) Wiping the prism with alcohol D) Calibrating against the analyzer's TS
+KEY: B. A describes analyzer-style QC material not used for this instrument in-house; C is cleaning, not QC; D reverses the logic — the refractometer helps check the analyzer, not the other way around.

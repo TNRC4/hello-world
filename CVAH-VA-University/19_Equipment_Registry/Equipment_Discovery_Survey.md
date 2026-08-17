@@ -1,0 +1,3 @@
+# Equipment Discovery Survey (walk-through instrument)
+
+Conducted by Program Administrator + a CVT, one hour, phone camera in hand. For each device: photograph the model/serial plate; record exact model + software version (analyzer About screens); locate the manual (paper or download the current PDF from manufacturer support and store the LINK + local copy per licensing rules); note consumables in use; ask the primary operator for the top-5 real-world errors seen. Enter rows in `equipment_registry.csv`; every completed row flips the linked training modules from `equipment_dependent` to buildable in the manifest.

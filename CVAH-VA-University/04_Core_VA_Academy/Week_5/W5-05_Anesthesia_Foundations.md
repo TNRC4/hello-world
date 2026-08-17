@@ -1,0 +1,11 @@
+# W5-05 — Anesthesia Foundations for Assistants
+
+**Why this matters:** Every surgical and dental patient passes through anesthesia. Core-level assistants don't run it — but you'll prep for it, sit with recovering patients, and be the extra eyes that catch trouble. You need the map.
+
+**Objectives:** name the phases (premed→induction→maintenance→recovery) and each phase's risk profile; identify machine components at recognition level; state the assistant's monitoring-support verbs; know the recovery red flags cold.
+
+**Core instruction:** **The phases:** premedication (calms, pre-empts pain, smooths everything downstream — why fasting rules matter: regurgitation/aspiration); induction (the most dynamic 5 minutes — airway secured by CVT/DVM; your job: suction reachable, tubes staged, quiet room); maintenance (vaporizer + oxygen + monitoring — the anesthetist's domain; your verbs: fetch, chart-support if asked, warmth management, position guarding on moves); recovery (**the phase that kills quietly after everyone relaxes** — extubation timing is the anesthetist's call; your watch: breathing pattern/effort, MM color, temperature, thrashing-vs-smooth, brachycephalic special vigilance — these patients obstruct AFTER the tube leaves). **Machine at recognition level:** O2 source→flowmeter→vaporizer→circuit→patient→absorber/scavenger loop traced on the real machine; you don't set anything — you recognize when something looks disconnected, kinked, empty, or smells of agent, and you SAY SO immediately. **Anesthesia Academy** is the deep path later; this module is the safety floor.
+
+**Knowledge check:** 1) Highest-risk phase after the surgeon breaks scrub? (*Recovery — monitoring effort collapses exactly when brachycephalics obstruct and everyone's cleaning up.*) 2) You smell anesthetic gas near the machine mid-case. (*Report to the anesthetist immediately — possible disconnection/leak; not your job to fix, absolutely your job to say.*) 3) Your verbs during maintenance? (*Support: warmth, supplies, messages, position-guarding on moves, extra eyes — never dials.*)
+
+**Practical assignment:** trace the machine loop physically with the CVT; sit two coached recoveries with checklist. **Competency connection:** TS-SUR-003 → 5–6; gateway module for Anesthesia Academy. **Version:** 1.0 2026-08-17.

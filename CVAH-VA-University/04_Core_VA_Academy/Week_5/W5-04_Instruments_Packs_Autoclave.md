@@ -1,0 +1,11 @@
+# W5-04 — Instruments, Packs, Sterile Opening & the Autoclave
+
+**Why this matters:** The instrument lifecycle — dirty → cleaned → wrapped → sterilized → opened sterile — runs through assistant hands at every arrow.
+
+**Objectives:** identify the core instrument set; clean/inspect instruments properly; wrap packs; run the autoclave with indicators; open sterile items flawlessly (TS-SUR-STER-001).
+
+**Core instruction:** **Instrument ID set (INT-08 flashcards + tray drills):** scalpel handles #3/#4 + blade sizes/loading (safety loading with needle holders, never fingers), Metzenbaum vs Mayo scissors (delicate vs heavy — mixing them up dulls the Metz and annoys everyone), operating scissors, thumb forceps (rat-tooth vs DeBakey vs Adson), hemostats (mosquito/Kelly/Crile), needle holders (Mayo-Hegar/Olsen-Hegar and the scissor-blade surprise), towel clamps, Allis, spay hook, retractors (Gelpi/Weitlaner/Senn). Suture familiarity: absorbable vs non concept, sizes (3-0 smaller than 0), needle types (taper vs cutting) — recognition level. **Reprocessing:** rinse-soon doctrine (dried blood pits instruments), enzymatic soak per label, brush hinges OPEN, inspect (box-lock cracks, tip alignment, sharpness), lubricate per protocol, wrap double-layer with internal indicator, tape-date-initial, load autoclave loosely (steam must circulate), run per cycle card, verify external+internal indicators, log the load, storage rotation (oldest forward), shelf-life per policy. **Sterile opening:** content is **TS-SUR-STER-001** — dry-lab drills ×10 with trainer-sabotaged packs (wet corner, unturned tape, pinhole) you must catch.
+
+**Knowledge check:** 1) Metz vs Mayo — which cuts heavy fascia? (*Mayo. Metz is for delicate tissue only.*) 2) Indicator tape turned but internal strip didn't. (*Pack is NOT trusted — report, re-process; tape only proves exposure of the outside.*) 3) Why loose autoclave loading? (*Steam penetration requires circulation; a crammed chamber sterilizes its outer layer and lies about the middle.*)
+
+**Practical assignment:** full reprocess of one pack start-to-finish; 10 sterile openings incl. sabotage catches; instrument ID ≥90%. **Competency connection:** TS-SUR-STER-001 → 7; TS-SUR-002 → 5–6. **Version:** 1.0 2026-08-17.

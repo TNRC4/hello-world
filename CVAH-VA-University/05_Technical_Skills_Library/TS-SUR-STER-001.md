@@ -1,0 +1,11 @@
+# TS-SUR-STER-001 — Opening Sterile Supplies & Pack Handling
+
+**School/Level:** Core/VA2 · **Prereq:** W5-02 asepsis · **Scope/Supervision:** P/S2 · **Revalidation:** 24 months
+
+**Principles (the mental model):** sterile touches sterile; non-sterile touches non-sterile; the moment of doubt IS contamination — declare it ("contaminated!") with zero penalty culture; edges of any sterile wrapper (2.5 cm border) are non-sterile; below table level is non-sterile; your reach never crosses over an open sterile field.
+
+**Checks before opening:** package integrity (holes, moisture strike-through, crushed corners = contaminated); external indicator tape turned; date/rotation per policy; correct item vs surgeon's card.
+
+**Procedure — wrapped pack onto table:** place on clean, dry surface; orient so first flap opens AWAY from you (you never reach over opened field); open distal flap, then side flaps, then proximal flap toward you, touching only the outer surface and flap tails; check internal indicator visible to the scrubbed person. **Peel-pouch to scrubbed person or field:** peel edges apart like a book — no tearing, no "popping" (popping fires the item and dust across the field); present so the scrubbed person grasps the item without touching pouch edges; or flip-drop from 15–30 cm above field edge WITHOUT your hands/arms crossing the plane of the field. **Solutions (pour):** confirm label to scrubbed person aloud; lip the bottle per protocol, pour from a height avoiding splash; the receptacle sits near field edge.
+
+**Common mistakes:** reaching over the field to open the far flap; slow-motion hovering over the field while flipping items (hover = particulate rain); opening packs on a wet counter (strike-through wicking); using unturned-indicator packs "because it was probably run." **Critical fails:** unrecognized/undeclared contamination (recognized-and-declared is a PASS behavior); using an integrity-failed pack. **Repetitions:** ≥10 practice openings (pack, pouch, glove, suture, pour) — cheap to drill dry. **Practical:** PA-SUR-STER-001 / station 8 (includes a deliberately compromised pack the learner must catch). **Knowledge:** QB-CORE-SUR. **Video:** VID-SUR-STER-001. **Sources:** surgical nursing texts; house pack-wrap SOP. **Rev:** 1.0 2026-08-17, PENDING.

@@ -1,0 +1,8 @@
+crc_id,title,version,status,approved_by,approval_date,next_review,location_posted
+CRC-001,Vital-sign bands,0.9-draft,pending_approval,,,,treatment+wards+LMS
+CRC-002,CPR quick reference,0.9-draft,pending_approval,,,,crash cart+LMS
+CRC-003,Anesthesia alert thresholds,0.9-draft,pending_approval,,,,OR+prep+LMS
+CRC-004,Fluid-rate references,not_drafted,awaiting_input,,,,
+CRC-005,Crash-cart checklist,0.9-draft,pending_approval,,,,crash cart
+CRC-006,Disinfectant chart,not_drafted,awaiting_input,,,,cleaning closet
+CRC-007,Emergency workflow cards,0.9-draft,pending_approval,,,,treatment

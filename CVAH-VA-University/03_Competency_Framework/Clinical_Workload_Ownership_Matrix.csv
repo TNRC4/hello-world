@@ -1,0 +1,16 @@
+skill_id,task_transferred,previously_carried_by,supervision_after_signoff,prerequisites,invalid_when,escalation_triggers,metric_1,metric_2
+TS-ASM-001,routine TPR acquisition and documentation,CVT,S2,VA1 handling,fractious or critical patient,value outside CRC-001;distress,pct_tpr_by_assistants,cvt_minutes_returned
+TS-RES-001,restraint for exams and procedures,CVT/DVM,S2,VA1,aggression beyond trained level,escalating fear;airway compromise,pct_restraints_by_assistants,cvt_minutes_returned
+TS-VEN-CEPH-001,routine cephalic blood collection,CVT,S2,VA2 reps met,>2 failed attempts;fragile patients,hematoma;stress;attempt limit,pct_draws_by_assistants,cvt_minutes_returned
+TS-VEN-SAPH-001,saphenous draws,CVT,S2,cephalic signed,coagulopathy(jugular),respiratory distress,pct_draws_by_assistants,cvt_minutes_returned
+TS-VEN-JUG-001,jugular volume draws,CVT,S1 until VA3,cephalic signed,coagulopathy;resp-compromised cats,respiratory distress,pct_draws_by_assistants,cvt_minutes_returned
+TS-IVC-CEPH-001,peripheral IV catheter placement,CVT,S1_then_S2,VA2;policy permits,critical patient;policy restriction,no flash x2;vein blown,pct_catheters_by_assistants,cvt_minutes_returned
+TS-INJ-SQ-001,verified SQ injections,CVT,S2,VA2;med-math 90,unverified dose;controlled substance,site reaction;collapse,pct_sq_by_assistants,cvt_minutes_returned
+TS-MED-PO-001,verified PO/topical meds,CVT,S2,VA1;med foundations,dysphagia;unverified order,vomiting;wrong label,pct_po_by_assistants,cvt_minutes_returned
+TS-FLU-001,fluid system setup and monitoring,CVT,S2,VA2,medicated fluids unverified,infiltration;pump alarm unresolved,pct_fluid_setups_by_assistants,cvt_minutes_returned
+TS-SAM-001,sample processing to lab-ready,CVT,S2,VA2,QC failure uninvestigated,hemolysis;clot;error codes,sample_quality_error_rate,cvt_minutes_returned
+TS-SUR-PREP-001,routine surgical prep,CVT,S2,weeks5-6 signoff,compromised skin;emergency sx,lesions found;depth flags,pct_preps_by_assistants,cvt_minutes_returned
+TS-SUR-STER-001,sterile opening,CVT,S2,asepsis module,uncertain sterility,suspected contamination,contamination_event_rate,cvt_minutes_returned
+TS-IMG-001,radiographic positioning,CVT,S2,radsafety;dosimetry,pregnancy restrictions;sedation cases,distress;2-attempt limit,retake_rate,cvt_minutes_returned
+TS-INP-001,scheduled inpatient observations,CVT,S2,VA2;inpatient basics,ICU patients;isolation untrained,CRC-001 breach;pain rise,pct_rounds_by_assistants,cvt_minutes_returned
+TS-EMR-001,crash cart checks and CPR support roles,CVT,S1 during events,emergency foundations,lead/drug roles,arrest recognition,cart_audit_compliance,na

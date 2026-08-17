@@ -1,0 +1,11 @@
+# TS-EMR-001 — Crash-Cart Readiness & CPR Support Roles
+
+**School/Level:** Core/VA2 · **Prereq:** W6-04 emergency foundations · **Scope/Supervision:** P / S1 during events · **Revalidation:** 12 months
+
+**Crash-cart readiness (assistant-owned task):** scheduled audit per checklist (CRC-005 cart contents card, DVM-approved): laryngoscope light works; ET tubes sized range + stylets + ties + cuff syringe; ambu bag; suction reachable and functional; emergency drug box sealed/in-date (drug stocking = CVT/DVM; assistant verifies seal + expiry sweep); flow-chart/dosing chart (RECOVER-based, DVM-approved) present; defibrillator per hospital equipment; audit logged with date/initials. A used cart is restocked and re-sealed the same day — an unrestocked cart is an emergency already in progress.
+
+**CPR support roles (assistant-appropriate per RECOVER role clarity):** COMPRESSOR — rate 100–120/min, depth and technique per RECOVER conformation guidance (posted CRC-002), full recoil, switch every 2-min cycle to prevent fatigue decay, count aloud on cue; RECORDER — timekeeping of cycles, drug/event log verbatim as called; RUNNER — fetch/route items, doors, phone. Assistants do NOT: lead, intubate (per CVAH scope), select/push drugs. Closed-loop communication drilled: repeat back every instruction ("epi 0.2 in — heard").
+
+**Recognition-to-activation:** unresponsive + not breathing normally = call the arrest LOUD and start compressions while help arrives — RECOVER emphasizes starting compressions promptly when arrest is suspected; a false alarm on a deeply sedated patient is recoverable, a delayed response is not.
+
+**Critical fails:** cart audit signed but items missing (integrity failure); freelancing outside assigned role mid-code; broken closed-loop (acting without repeat-back) in drill. **Repetitions:** quarterly mock codes (house policy recommended) + annual RECOVER-aligned skills refresh. **Practical:** PA-EMR-001 / station 12 (mock activation + 2-min quality compressions on manikin/model). **Knowledge:** QB-CORE-EMR (safety-critical). **Video:** VID-EMR-001 + RECOVER-published visuals (licensed/linked, not copied). **Sources:** RECOVER 2024 guidelines (recoverinitiative.org; JVECC 2024). **Rev:** 1.0 2026-08-17, PENDING.

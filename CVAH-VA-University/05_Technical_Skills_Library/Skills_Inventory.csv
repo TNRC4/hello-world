@@ -1,0 +1,76 @@
+skill_id,skill_name,school,va_level,scope_class,supervision,prerequisites,revalidation_months,spec_status
+TS-HND-001,Safe approach and low-stress handling,Core,VA1,P,S2,,none,full_spec
+TS-HND-002,Carrier handling and cat extraction,Core,VA1,P,S2,TS-HND-001,none,inventoried
+TS-HND-003,Muzzle application (canine),Core,VA1,P,S2,TS-HND-001,none,inventoried
+TS-HND-004,Towel techniques (feline),Core,VA1,P,S2,TS-HND-001,none,inventoried
+TS-HND-005,Escape prevention and patient transport,Core,VA1,P,S2,TS-HND-001,none,inventoried
+TS-RES-001,Lateral restraint,Core,VA1,P,S2,TS-HND-001,none,full_spec
+TS-RES-002,Sternal and standing restraint,Core,VA1,P,S2,TS-HND-001,none,full_spec
+TS-RES-003,Venipuncture positioning (cephalic/jugular/saphenous holds),Core,VA1,P,S2,TS-RES-001;TS-RES-002,none,full_spec
+TS-RES-004,Fractious-patient awareness and restraint limits,Core,VA1,P,S1,TS-RES-001,12,inventoried
+TS-ASM-001,TPR acquisition and documentation,Core,VA1,P,S2,TS-HND-001,none,full_spec
+TS-ASM-002,Mucous membranes CRT and pulse quality,Core,VA1,P,S2,TS-ASM-001,none,inventoried
+TS-ASM-003,Body weight and body condition observation,Core,VA1,P,S2,,none,inventoried
+TS-ASM-004,Pain and mentation observation and reporting,Core,VA1,P,S2,TS-ASM-001,none,inventoried
+TS-ASM-005,Hydration observation,Core,VA2,P,S2,TS-ASM-001,none,inventoried
+TS-SAN-001,Cleaning disinfection and room turnover,Core,VA1,P,S2,,12,full_spec
+TS-SAN-002,Isolation entry/exit and PPE,Core,VA1,P,S2,TS-SAN-001,12,inventoried
+TS-DOC-001,Basic medical-record documentation,Core,VA1,P,S2,,none,full_spec
+TS-COM-001,SBAR-V abnormal-finding report,Core,VA1,P,S2,TS-ASM-001,none,full_spec
+TS-VEN-CEPH-001,Cephalic venipuncture,Core,VA2,P,S2,TS-RES-003;TS-ASM-001,24,full_spec
+TS-VEN-SAPH-001,Lateral/medial saphenous venipuncture,Core,VA2,P,S2,TS-VEN-CEPH-001,24,full_spec
+TS-VEN-JUG-001,Jugular venipuncture,Core,VA3,P,S1_then_S2,TS-VEN-CEPH-001,24,full_spec
+TS-IVC-CEPH-001,Cephalic IV catheter placement,Core,VA2,P/HP,S1_then_S2,TS-VEN-CEPH-001;policy SCOPE-004,24,full_spec
+TS-IVC-002,IV catheter maintenance monitoring and removal,Core,VA2,P,S2,TS-IVC-CEPH-001 or theory,none,inventoried
+TS-INJ-SQ-001,Subcutaneous injection,Core,VA2,P,S2,TS-MED-001,24,full_spec
+TS-INJ-IM-001,Intramuscular injection,Core,VA2,P,S1_then_S2,TS-INJ-SQ-001,24,full_spec
+TS-MED-001,Medication preparation and five-rights verification,Core,VA2,P,S2,,12,full_spec
+TS-MED-PO-001,Oral topical ophthalmic and otic administration,Core,VA1,P,S2,TS-MED-001,none,full_spec
+TS-SAM-001,Blood tube selection filling mixing and labeling,Core,VA2,P,S2,TS-VEN-CEPH-001 theory,none,full_spec
+TS-SAM-002,Urine and fecal sample handling,Core,VA2,P,S2,,none,inventoried
+TS-SAM-003,Cytology sample preparation (ear/skin),Core,VA2,P,S2,,none,inventoried
+TS-SAM-004,Reference-lab packaging and storage,Core,VA2,P,S2,TS-SAM-001,none,inventoried
+TS-LAB-001,Blood smear preparation,Core,VA2,P,S2,TS-SAM-001,none,full_spec
+TS-LAB-002,PCV/TS measurement,Core,VA2,P,S2,TS-SAM-001,none,full_spec
+TS-LAB-003,Centrifuge operation and serum separation,Core,VA2,P,S2,,none,inventoried
+TS-FLU-001,Fluid line setup priming and bag changes,Core,VA2,P,S2,,none,full_spec
+TS-FLU-002,Infusion and syringe pump operation,Core,VA2,P,S2,TS-FLU-001,12,full_spec
+TS-FLU-003,Line monitoring infiltration detection and patency,Core,VA2,P,S2,TS-FLU-001,none,inventoried
+TS-SUR-PREP-001,Surgical clip and initial skin prep,Core,VA2,P,S2,TS-SAN-001,24,full_spec
+TS-SUR-STER-001,Opening sterile supplies and pack handling,Core,VA2,P,S2,,24,full_spec
+TS-SUR-002,Autoclave loading and sterility indicators,Core,VA2,P,S2,TS-SUR-STER-001,12,inventoried
+TS-SUR-003,Recovery-area preparation and patient warming,Core,VA2,P,S2,,none,inventoried
+TS-IMG-001,Radiographic positioning (thorax/abdomen laterals and VD),Core+Imaging,VA2,P,S2,radiation safety module,12,full_spec
+TS-EMR-001,Crash-cart readiness check and CPR support roles,Core,VA2,P,S1,emergency foundations,12,full_spec
+TS-INP-001,Inpatient scheduled observations and treatment-sheet execution,Core,VA2,P,S2,TS-ASM-001;TS-MED-PO-001,none,full_spec
+TS-PRO-001,Nail trim,Core,VA2,P,S2,TS-RES-002,none,inventoried
+TS-PRO-002,Ear cleaning assistance,Core,VA2,P,S2,TS-RES-002,none,inventoried
+TS-PRO-003,Bandage and wound-care assistance,Core,VA2,A/P,S2,TS-RES-001,none,inventoried
+TS-PRO-004,Anal-gland procedure assistance,Core,VA2,A,S2,TS-RES-002,none,inventoried
+TS-PRO-005,Oxygen and nebulization equipment setup,Core,VA2,P,S2,,12,inventoried
+TS-ANE-101,Anesthesia machine check and leak test,Anesthesia,VA3,P,S1,academy enrollment,12,full_spec
+TS-ANE-102,Multiparameter monitor setup and lead placement,Anesthesia,VA3,P,S2,TS-ANE-101,12,inventoried
+TS-ANE-103,Anesthetic monitoring support and record keeping,Anesthesia,VA3,P,S1,TS-ANE-102,24,full_spec
+TS-ANE-104,Capnograph and SpO2 waveform artifact recognition,Anesthesia,VA3,P,S1,TS-ANE-103,24,inventoried
+TS-ANE-105,ET tube cuff check suction and airway equipment prep,Anesthesia,VA3,P,S1,TS-ANE-101,12,inventoried
+TS-ANE-106,Recovery monitoring and extubation-readiness observation,Anesthesia,VA3,P,S1,TS-ANE-103,24,inventoried
+TS-ANE-107,Gowning gloving assistance and sterile instrument passing,Anesthesia,VA3,P,S1,TS-SUR-STER-001,24,inventoried
+TS-LID-101,IDEXX analyzer operation (per installed model),Laboratory,VA2+,P,S2,Lab Academy enrollment,12,equipment_dependent
+TS-LID-102,Analyzer QC and maintenance (per installed model),Laboratory,VA2+,P,S2,TS-LID-101,12,equipment_dependent
+TS-LID-103,Microscopy setup and specimen scanning support,Laboratory,VA2+,P,S2,,none,inventoried
+TS-DEN-101,Dental radiographic positioning (full-mouth series),Dentistry,VA2+,P,S2,radiation safety,12,inventoried
+TS-DEN-102,Dental unit setup maintenance and instrument care,Dentistry,VA2+,P,S2,,none,inventoried
+TS-DEN-103,Dental charting assistance and tooth numbering,Dentistry,VA2+,A/P,S2,,none,inventoried
+TS-DEN-104,Anesthetized dental patient positioning airway protection support,Dentistry,VA2+,P,S1,anesthesia foundations,24,inventoried
+TS-IMG-101,Orthopedic and spinal positioning series,Imaging,VA2+,P,S2,TS-IMG-001,12,inventoried
+TS-IMG-102,Ultrasound patient prep and procedure assistance,Imaging,VA2+,A/P,S2,,none,inventoried
+TS-IMG-103,ECG acquisition,Imaging,VA2+,P,S2,,12,inventoried
+TS-ECC-101,Triage support and primary survey observations,ECC,VA2+,P,S1,ECC enrollment,12,inventoried
+TS-ECC-102,CPR BLS performance per RECOVER (compressions/ventilation support),ECC,VA2+,P,S1,CPR module,12,full_spec
+TS-ECC-103,Emergency equipment deployment (oxygen suction crash cart),ECC,VA2+,P,S1,TS-EMR-001,12,inventoried
+TS-INP-101,ICU-level monitoring and trend recording,Inpatient,VA2+,P,S1,Inpatient Academy,24,inventoried
+TS-INP-102,Recumbent-patient care turning and pressure-injury prevention,Inpatient,VA2+,P,S2,,none,inventoried
+TS-INP-103,Structured shift handoff,Inpatient,VA2+,P,S2,TS-COM-001,none,inventoried
+TS-PHA-101,Prescription filling counting and labeling per DVM order,Pharmacy,VA2+,P,S2,Pharmacy Academy,12,inventoried
+TS-PHA-102,Controlled-substance logging per hospital procedure,Pharmacy,VA2+,HP,S2,TS-PHA-101,12,inventoried
+TS-PHA-103,Medication calculations (dose concentration dilution),Pharmacy,VA2+,P,S2,,12,inventoried

@@ -26,3 +26,13 @@ LMS US$10–50/mo · model arms/limbs one-time ~US$200–600 (or clinic-built) �
 
 ## The Monday-morning test, answered
 A new hire can start Week 0 the Monday after Phase C completes: pretest exists, lessons exist, floor targets exist, rubrics exist, logs print on one sheet. The only true blockers are the DVM approvals in Phase A — protect those 4–6 reviewer hours above all else.
+
+---
+
+## The live console (added 2026-08)
+
+`27_Deployment/cvah_university_console.html` is a single self-contained web page carrying the working core of the University: all 10 Clinical Skill Courses, all 30 lessons, every practical rubric, the competency framework, the scope matrix, and a symptom-first troubleshooting index — with search across all of it, print styles on every page, and the Phase-A approval checklist with saved progress.
+
+**Open it** by double-clicking the file (no server, no internet, no install), or use the hosted copy the practice manager holds.
+**Regenerate it** after any content change: `python3 27_Deployment/build_console.py`. It reads the Markdown in this repository and rewrites the HTML, so the repo stays the single source of truth.
+**Safety behavior:** the four draft reference cards render behind an explicit acknowledgment and carry a NOT FOR CLINICAL USE band until the medical director's values replace the drafts. Re-run the build after approval and the cards ship with their signatures.

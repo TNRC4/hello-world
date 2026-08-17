@@ -4,7 +4,7 @@
 
 **Objectives:** acquire T, P (with quality/rhythm), R (with character) to spec; assess MM/CRT; recognize and report out-of-band values; document properly.
 
-**Core instruction:** Read **TS-ASM-001** first; floor blocks daily this week. Online adds the *why*: what temperature does across conditions (fever vs hyperthermia vs the stress-bump); why pulse quality and synchrony matter (a pulse deficit means beats aren't perfusing); respiratory character as the earliest free warning (effort/abdominal push/noise beat the number); the stress-artifact problem (count R first, from distance; note purring/panting). Normal bands come from card **CRC-001** (posted; DVM-approved) — the lesson teaches you to USE the card, not memorize folklore.
+**Core instruction:** Read **CSC-ASM-01** (the teaching course; TS-ASM-001 governs) first; floor blocks daily this week. Online adds the *why*: what temperature does across conditions (fever vs hyperthermia vs the stress-bump); why pulse quality and synchrony matter (a pulse deficit means beats aren't perfusing); respiratory character as the earliest free warning (effort/abdominal push/noise beat the number); the stress-artifact problem (count R first, from distance; note purring/panting). Normal bands come from card **CRC-001** (posted; DVM-approved) — the lesson teaches you to USE the card, not memorize folklore.
 
 **Visual/interactive:** heart & lung sound audio set INT-09 (count-along drills with answer reveal); CRT technique video clip in VID-ASM-001.
 

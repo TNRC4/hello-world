@@ -67,7 +67,9 @@ Sharps; clipper blade cleaned/disinfected; prep waste; table disinfected; restoc
 ## 18. Documentation
 Chart: date/time, limb/site, gauge, attempts, flush quality, securing method, patient tolerance, initials. Catheter label on wrap. Case log entry.
 
-## 19. Video/demo
+## 19. Learning module & video
+**Clinical Skill Course: `Clinical_Skill_Courses/CSC-IVC-01_Cephalic_IV_Catheter.md` — the teaching layer for this skill.**
+Also:
 `VID-IVC-CEPH-001_storyboard.md` — includes slow-motion thread-off-stylet close-up and the two classic errors (immediate thread; re-thread attempt) on a model.
 
 ## 20. Simulation

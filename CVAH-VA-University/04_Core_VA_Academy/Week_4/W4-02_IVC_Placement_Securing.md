@@ -4,7 +4,7 @@
 
 **Objectives:** (placement track) perform coached placements; (all) execute tape architecture correctly; perform and interpret the first flush; label and chart.
 
-**Core instruction:** **TS-IVC-CEPH-001** §§8–18 live. The tape architecture drilled on models until neat under 90 seconds: strip-1 sticky-up under hub, cross; strip-2 flat over wings; strip-3 T-port stress loop; one-finger-slides-under tension test; vetwrap light; label (date/time/gauge/initials). The first flush as a diagnostic: smooth + no bleb + no wince = working; ANY resistance/bleb/pain = it's not in, no matter how pretty the flash was — remove/report per track. Post-wrap recheck (taping kinks happen). Charting fields per spec.
+**Core instruction:** **CSC-IVC-01** §§6–8 live (spec TS-IVC-CEPH-001 governs). The tape architecture drilled on models until neat under 90 seconds: strip-1 sticky-up under hub, cross; strip-2 flat over wings; strip-3 T-port stress loop; one-finger-slides-under tension test; vetwrap light; label (date/time/gauge/initials). The first flush as a diagnostic: smooth + no bleb + no wince = working; ANY resistance/bleb/pain = it's not in, no matter how pretty the flash was — remove/report per track. Post-wrap recheck (taping kinks happen). Charting fields per spec.
 
 **What doesn't look right?** "Fat paw" below yesterday's wrap (*too tight — report, rewrap per direction*); flush that needs a strong thumb (*never force — investigate*); an unlabeled catheter of unknown age (*report — dwell time drives phlebitis protocols*).
 

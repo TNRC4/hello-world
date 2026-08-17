@@ -18,3 +18,10 @@ v1.0 anesthesia academy was the deepest specialty but still under the new flagsh
 
 ## D. Post-rewrite assessment audit (to be re-run after every bank change)
 Re-run `00_Project_Control/qb_audit.py`. Acceptance: no position >35%, long-key giveaway <15% of items and never on safety-critical flagship banks.
+
+## E. Post-implementation results (2026-08, same session)
+- **Assessment:** all 294 items rewritten + parity passes. Re-audit: key positions A 74 / B 102 / C 83 / D 35 (max 34.7%, was 91%); long-key giveaway 36/294 = 12% (was 88%), none on safety-critical flagship items in spot check. Remaining 12% are mild (≤1.8x) and queued for the quarterly item-analytics revision.
+- **Depth:** 10 benchmark Clinical Skill Courses shipped (`05_Technical_Skills_Library/Clinical_Skill_Courses/`), each closed out with the three internal reviews; Core lessons and flagship specs re-pointed to CSCs as the teaching layer.
+- **Perioperative flagship:** role-based pathways + tiers T1–T4; ANE-L3 fault-finding; ANE-L4 ECG/BP; SIM-ANES-007..014 + WDF-01..08; extended anesthesia case-log schema with variety requirements; PA-PERIOP-EXAM (12 stations).
+- **Empty-language sweep:** grep for the directive's banned standalone phrases across curriculum trees returned zero hits.
+- **Still queued (tracked in CONTINUATION_STATE):** CSC-grade companions for remaining safety-critical skills as they are authored; INT-A4 ECG strip library production; parity polish of the mild 12% remainder; parallel-item variants for randomization depth.

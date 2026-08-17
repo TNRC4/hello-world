@@ -71,7 +71,8 @@ Sharps disposed; gauze/alcohol waste out; table disinfected (TS-SAN-001); clippe
 ## 18. Documentation
 Record: date/time, site and side, needle gauge, attempts, volume, tubes collected, complications (or "none"), initials, and patient tolerance note. Case log entry per `16_Case_Logs/`.
 
-## 19. Video/demo specification
+## 19. Learning module & video
+**Clinical Skill Course: `Clinical_Skill_Courses/CSC-VEN-01_Canine_Cephalic_Venipuncture.md` — the teaching layer for this skill.**
 See `20_LMS/Video_System/VID-VEN-CEPH-001_storyboard.md` (4–6 min, correct + common-incorrect versions).
 
 ## 20. Simulation exercises

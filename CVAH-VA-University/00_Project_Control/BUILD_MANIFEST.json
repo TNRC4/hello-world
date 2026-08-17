@@ -1,13 +1,13 @@
 {
  "project": "CVAH Veterinary Assistant University",
- "version": "1.0",
+ "version": "1.1",
  "build_date": "2026-08-17",
  "bank_growth_targets": {
   "QB-CORE": "183 -> 400 by month 6",
   "recognition_battery_media": "12 -> 40 by month 3"
  },
  "pending_specs": 47,
- "notes": "See 00_Project_Control/CONTINUATION_STATE.md",
+ "notes": "v1.1: depth & assessment directives applied. See Depth_and_Assessment_Audit_2026-08.md and CONTINUATION_STATE.md.",
  "files": [
   {
    "file": "00_Project_Control/CONTINUATION_STATE.md",
@@ -936,7 +936,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -946,7 +946,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -956,7 +956,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1066,7 +1066,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1076,7 +1076,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1086,7 +1086,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1096,7 +1096,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1106,7 +1106,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1116,7 +1116,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1126,7 +1126,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1136,7 +1136,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1146,7 +1146,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1156,7 +1156,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1166,7 +1166,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1176,7 +1176,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1186,7 +1186,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1196,7 +1196,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1206,7 +1206,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1216,7 +1216,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1226,7 +1226,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-17-v1.1",
    "outstanding_issue": "none"
   },
   {
@@ -1724,6 +1724,216 @@
    "area": "27_Deployment",
    "status": "complete",
    "medical_review": "n/a",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "README.md",
+   "area": "README.md",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/Depth_and_Assessment_Audit_2026-08.md",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/qb_audit.py",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-ANE-01_Foundational_Anesthesia_Monitoring.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-ASM-01_TPR_Basic_Assessment.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-FLU-01_Fluid_Lines_Monitoring.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-IVC-01_Cephalic_IV_Catheter.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-RES-01_Canine_Restraint.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-RES-02_Feline_Restraint.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-SUR-01_Surgical_Patient_Prep.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-VEN-01_Canine_Cephalic_Venipuncture.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-VEN-02_Feline_Medial_Saphenous.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC-VEN-03_Jugular_Venipuncture.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "05_Technical_Skills_Library/Clinical_Skill_Courses/CSC_Standard.md",
+   "area": "Clinical_Skill_Courses",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "06_Perioperative_Anesthesia_Academy/ANE-L3_Machine_Fault_Finding.md",
+   "area": "06_Perioperative_Anesthesia_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "06_Perioperative_Anesthesia_Academy/ANE-L4_ECG_BP_Practical.md",
+   "area": "06_Perioperative_Anesthesia_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "06_Perioperative_Anesthesia_Academy/Case_Log_Anesthesia.md",
+   "area": "06_Perioperative_Anesthesia_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "06_Perioperative_Anesthesia_Academy/PA-PERIOP-EXAM.md",
+   "area": "06_Perioperative_Anesthesia_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "06_Perioperative_Anesthesia_Academy/Role_Based_Pathways.md",
+   "area": "06_Perioperative_Anesthesia_Academy",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17-v1.1",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "14_Question_Banks/Assessment_Item_Quality_Standard.md",
+   "area": "14_Question_Banks",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-17",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "17_Simulations/SIM-ANES_Trend_Cases_II.md",
+   "area": "17_Simulations",
+   "status": "complete",
+   "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
    "last_revision": "2026-08-17",

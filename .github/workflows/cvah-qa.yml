@@ -1,0 +1,45 @@
+name: CVAH VAU quality gate
+
+on:
+  push:
+    paths: ['CVAH-VA-University/**']
+  pull_request:
+    paths: ['CVAH-VA-University/**']
+  workflow_dispatch:
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Quality gate
+        run: python3 CVAH-VA-University/00_Project_Control/qa_check.py
+
+      - name: Console regeneration is deterministic
+        run: |
+          cp CVAH-VA-University/27_Deployment/cvah_university_console.html /tmp/committed.html
+          python3 CVAH-VA-University/27_Deployment/build_console.py
+          # Ignore the build timestamp and commit, which legitimately differ per run.
+          norm() { sed -E 's/"built_utc":"[^"]*"//; s/"built_epoch":[0-9]*//; s/"commit":"[^"]*"//; s/"dirty":(true|false)//' "$1"; }
+          if ! diff <(norm /tmp/committed.html) <(norm CVAH-VA-University/27_Deployment/cvah_university_console.html) > /dev/null; then
+            echo "::error::Committed console does not match a fresh build. Run build_console.py and commit the result."
+            exit 1
+          fi
+          echo "Console matches a fresh build."
+
+      - name: Production build carries no unapproved clinical values
+        run: |
+          python3 - <<'PY'
+          import sys, pathlib
+          t = pathlib.Path("CVAH-VA-University/27_Deployment/cvah_university_console.html").read_text(encoding="utf-8")
+          markers = ["100.0–102.5", "160–220", "<25 or >55", "<60 mmHg", "Reviewing veterinarian: ________"]
+          leaks = [m for m in markers if m in t]
+          if leaks:
+              print("::error::Production console contains unapproved clinical values:", leaks); sys.exit(1)
+          print("Production console clean.")
+          PY

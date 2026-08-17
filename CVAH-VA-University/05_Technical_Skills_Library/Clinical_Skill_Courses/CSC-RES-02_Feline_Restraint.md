@@ -41,5 +41,20 @@ PEARLS: warm towel from the dryer = instant 20% calmer cat. · Feliway/pheromone
 ## 12–13. Visuals & assessment
 VID-RES-002 feline segment + burrito build in 4 stills (flat → side A → side B → limb-out variant); INT-07 feline signal photos. Practical: PA-RES-001 §C–D with feline probes (open-mouth = scripted stop ★). Case log: ≥3 coached feline holds + ≥2 burritos before assessment.
 
+## 14. Technique variation & house standard
+**Outcome requirements:** the task gets done with the least handling that works, the cat breathes freely throughout, nobody is scratched, and the cat is still workable next visit.
+
+**CVAH house standards** `[HOUSE]`: towel techniques before scruffing (reason: welfare and staff-injury history — scruffing is an exception, not a default); carrier top-off rather than dumping or dragging (reason: it works better and it is kinder); open-mouth breathing stops everything.
+
+**Genuinely variable:** burrito fold pattern and direction; head covered or not; working in the carrier bottom versus on the table; one towel or two; pheromone spray or not; how long you wait before starting.
+
+## 15. What may vary without being wrong
+> Do not fail a learner for: a wrap built differently that contains limbs and lets the ribs move · deciding to stop and reschedule a non-urgent task — **that is the policy working** · asking for the DVM sedation conversation early · using the carrier bottom as the work surface · a brief, correctly-indicated scruff during an active safety event, if they can say why it was indicated.
+
+## 16. Precision audit
+`[GUIDE]`: the "meatloaf" image · the 60-second room-settle · the chin-scratch window test · "warm towel = 20% calmer" (a shop figure, not a measurement).
+`[HOUSE]`: towel-first · top-off carriers · no scruff as default.
+`[SAFETY]`: open-mouth breathing = stop · no compression of a panicking cat · never suspend by scruff.
+
 ---
-*Reviews:* R1: added silence-vs-hiss doctrine, chin-scratch window test, cabinet protocol. R2: burrito buildable from text alone; both forearms' jobs named. R3: hospital gains feline procedures that finish with usable samples and re-bookable patients.
+*Reviews (R1a — would an experienced CVAH technician disagree that any one method is presented as the only correct method? **Pending human review at pilot; see `00_Project_Control/Pilot_Feedback_Loop.md`**):* R1: added silence-vs-hiss doctrine, chin-scratch window test, cabinet protocol. R2: burrito buildable from text alone; both forearms' jobs named. R3: hospital gains feline procedures that finish with usable samples and re-bookable patients.

@@ -1,13 +1,13 @@
 {
  "project": "CVAH Veterinary Assistant University",
- "version": "1.1",
+ "version": "1.2",
  "build_date": "2026-08-17",
  "bank_growth_targets": {
   "QB-CORE": "183 -> 400 by month 6",
   "recognition_battery_media": "12 -> 40 by month 3"
  },
  "pending_specs": 47,
- "notes": "v1.1: depth & assessment directives applied. See Depth_and_Assessment_Audit_2026-08.md and CONTINUATION_STATE.md.",
+ "notes": "See Go_Live_Status.md for readiness, QA_Report.md for defects found, Pilot_Feedback_Loop.md for the binding build gate.",
  "files": [
   {
    "file": "00_Project_Control/CONTINUATION_STATE.md",
@@ -106,7 +106,7 @@
    "medical_review": "n/a",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -116,7 +116,7 @@
    "medical_review": "n/a",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -126,7 +126,7 @@
    "medical_review": "n/a",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -136,7 +136,7 @@
    "medical_review": "n/a",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1726,7 +1726,7 @@
    "medical_review": "n/a",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1766,7 +1766,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1776,7 +1776,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1786,7 +1786,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1796,7 +1796,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1806,7 +1806,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1816,7 +1816,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1826,7 +1826,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1836,7 +1836,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1846,7 +1846,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1856,7 +1856,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1866,7 +1866,7 @@
    "medical_review": "pending",
    "source_review": "pending_pinning",
    "lms_status": "not_imported",
-   "last_revision": "2026-08-17-v1.1",
+   "last_revision": "2026-08-v1.2",
    "outstanding_issue": "none"
   },
   {
@@ -1938,6 +1938,162 @@
    "lms_status": "not_imported",
    "last_revision": "2026-08-17",
    "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/Go_Live_Status.md",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/Language_Precision_Sweep.md",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/Pilot_Feedback_Loop.md",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "00_Project_Control/qa_check.py",
+   "area": "00_Project_Control",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "01_University_Governance/Human_Centered_Instruction_Standard.md",
+   "area": "01_University_Governance",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "03_Competency_Framework/Learner_Focus_Model.md",
+   "area": "03_Competency_Framework",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "16_Case_Logs/passport_register.csv",
+   "area": "16_Case_Logs",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "27_Deployment/build_console.py",
+   "area": "27_Deployment",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "27_Deployment/console_template.html",
+   "area": "27_Deployment",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "27_Deployment/cvah_university_console.html",
+   "area": "27_Deployment",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "27_Deployment/cvah_university_console.review.html",
+   "area": "27_Deployment",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "27_Deployment/__pycache__/build_console.cpython-311.pyc",
+   "area": "27_Deployment",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "28_Knowledge_Base/README.md",
+   "area": "28_Knowledge_Base",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
+  },
+  {
+   "file": "28_Knowledge_Base/Troubleshooting_Index.json",
+   "area": "28_Knowledge_Base",
+   "status": "complete",
+   "medical_review": "pending",
+   "source_review": "pending_pinning",
+   "lms_status": "not_imported",
+   "last_revision": "2026-08-v1.2",
+   "outstanding_issue": "none"
   }
- ]
+ ],
+ "stage": "LOCALIZATION REQUIRED",
+ "pass": "2026-08 go-live maturation (correctness, usability, adaptability, human review, misuse-resistance)",
+ "gates": {
+  "t2_scope_rows_unverified": 10,
+  "controlled_reference_cards_approved": "0/7",
+  "knowledge_base_entries_unreviewed": "24/24",
+  "skill_courses_awaiting_R1a_human_review": 10,
+  "placeholders_open": 47,
+  "skill_specs_withheld_pending_pilot": 44,
+  "bulk_authoring_blocked_until_pilot": true
+ },
+ "qa": {
+  "suite": "00_Project_Control/qa_check.py",
+  "ci": ".github/workflows/cvah-qa.yml",
+  "last_run": "13 passed / 1 warning / 0 failures; release mode 2 failures (expected)"
+ }
 }

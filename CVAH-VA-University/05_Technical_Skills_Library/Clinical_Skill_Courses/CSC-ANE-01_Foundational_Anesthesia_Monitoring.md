@@ -53,5 +53,22 @@ VID-ANE-103 storyboard (the five-beat loop performed in real time on a real case
 ## 13. Assessment & competency links
 Knowledge: QB-ANES (rewritten; SC 100%) + waveform set ≥85%. Practical: PA-ANES-MON-001 (live case + staged drill; silent-troubleshooting and dial-touching are critical fails). Case log: 10 monitored cases (≥3 procedure types, ≥1 long dental) with anesthetist sign-per-case before assessment.
 
+## 14. Technique variation & house standard
+**Outcome requirements:** the patient is continuously watched by someone who would notice change; the record reflects what happened; anything that does not fit is spoken aloud at the right urgency.
+
+**CVAH house standards** `[HOUSE]`: hands and eyes before screens each cycle (reason: monitors fail, patients don't lie); report while checking, never instead of checking (reason: silent troubleshooting is how deterioration gets missed); assistants never touch vaporizer, APL, or flows (reason: scope — depth is a prescription).
+
+**Genuinely variable:** the order within the hands-on beat; which alternate SpO2 site you try first; charting continuously versus at the interval mark; how you phrase a report — **the content matters, the script does not**; where you stand, so long as you can see chest, bag, monitor and anesthetist.
+
+## 15. What may vary without being wrong
+> Do not fail a learner for: a different but complete observation sequence · reporting something that turns out to be artifact — **over-reporting at this stage is the correct error to make and must never be scored as a fault** · asking the anesthetist to confirm a threshold · charting a limitation instead of a value they could not obtain.
+
+## 16. Precision audit
+`[EVIDENCE]`: the cuff width ≈ 40% of limb circumference rule of thumb, applied by eye.
+`[GUIDE]`: the five-beat loop structure · "~30 seconds" for the hands-on beat.
+`[HOUSE]`: patient-before-monitor · report-while-checking · no dials.
+`[SAFETY]`: a flat capnograph means hands on patient and circuit immediately · never silence an alarm without a stated reason · never leave an anesthetized patient unwatched.
+**All numeric alert thresholds live in CRC-003 and are deliberately absent from this course** — it teaches you to use the card, not to memorise numbers a veterinarian has not yet approved.
+
 ---
-*Reviews:* R1: added the five-beat loop as one memorizable cycle, report-while-checking doctrine, finger-calibration game. R2: every beat has a where-do-I-look answer; report sentences are given as templates. R3: hospital gains a second set of trained eyes on every anesthetized patient — the specific gap CEPSAF-type mortality data says kills: unwatched patients in "quiet" phases.
+*Reviews (R1a — would an experienced CVAH technician disagree that any one method is presented as the only correct method? **Pending human review at pilot; see `00_Project_Control/Pilot_Feedback_Loop.md`**):* R1: added the five-beat loop as one memorizable cycle, report-while-checking doctrine, finger-calibration game. R2: every beat has a where-do-I-look answer; report sentences are given as templates. R3: hospital gains a second set of trained eyes on every anesthetized patient — the specific gap CEPSAF-type mortality data says kills: unwatched patients in "quiet" phases.

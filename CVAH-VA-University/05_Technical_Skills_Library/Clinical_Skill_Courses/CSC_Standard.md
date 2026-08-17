@@ -17,6 +17,24 @@ A CSC is the full teaching layer for a major technical skill — the instruction
 12. **Visual assets** — what exists or the production spec (storyboard/shot list), including correct / incorrect / borderline examples.
 13. **Assessment & competency links** — knowledge check pointers, practical rubric, case-log targets.
 
+## Amendment 1 (2026-08) — technique variation and honest precision
+
+The DO / WHY / EXPECT / COMMON ERROR / RECOVERY / STOP framework is retained unchanged; it works. These sections are **added** to every CSC, and all ten benchmark courses were retrofitted in the 2026-08 maturation pass.
+
+**14. Technique variation & house standard.** A short section, near the end, answering three questions plainly:
+- Which parts of this course are *outcome* requirements (the sample is usable, the catheter is patent, the patient is safe) versus *method* descriptions?
+- Where CVAH has deliberately standardized a method, what is it and **why** — safety, workflow consistency, or error history? A house standard without a stated reason is a preference wearing a badge.
+- What do experienced people here genuinely do differently, and is that fine? Say so out loud.
+
+**15. What may vary without being wrong.** A boxed list of the specific variants an assessor may see and must not fail. Written concretely — sites, hand positions, sequence choices, equipment preferences — not as a general disclaimer. If the list is empty for a given skill, say why.
+
+**16. Precision audit.** Every exact number in the course is classified per the Human-Centered Instruction Standard's seven levels: `[SAFETY]` `[LAW]` `[IFU]` `[EVIDENCE]` `[HOUSE]` `[SCORED]` `[GUIDE]`. Angles, depths, timings, counts, and tactile analogies are `[GUIDE]` unless there is a real reason otherwise. Mark it inline or list it in this section — but a reader must be able to tell which numbers are load-bearing.
+
+**Review question added to the quality gate (R1a):**
+> Would an experienced CVAH technician still disagree with any statement in this course because it presents one common method as the only correct method?
+
+A CSC does not ship until that question has been asked of a real person and answered in writing.
+
 ## Quality gate — the three internal reviews (recorded at the foot of each CSC)
 R1 Experienced technician: what practical detail is missing? what would I still have to teach? R2 True novice: do I know where to stand, what to hold, what success and failure look like? R3 Hospital utility: what can CVAH now trust this person to do that it couldn't before? A CSC ships only when all three have answers written down.
 

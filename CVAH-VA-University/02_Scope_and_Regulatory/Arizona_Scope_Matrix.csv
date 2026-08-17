@@ -1,28 +1,28 @@
-task_id,task,az_legal_ceiling,scope_class,supervision,cvah_policy,verified_date,verifier,next_review
-SCOPE-001,Patient restraint and handling,permitted,P,S2,per restraint policy,,,
-SCOPE-002,TPR/vitals acquisition,permitted,P,S2,,,,
-SCOPE-003,Venipuncture sample collection,permitted,P,S2,first 10 sticks S1,,,
-SCOPE-004,Peripheral IV catheter placement,permitted under supervision,P,S1_then_S2,[CVAH-SPECIFIC INPUT REQUIRED],,,
-SCOPE-005,SQ injection non-controlled DVM-ordered,permitted,P,S2,dose verified by CVT/DVM,,,
-SCOPE-006,IM injection DVM-ordered,permitted,P,S1_then_S2,dose verified by CVT/DVM,,,
-SCOPE-007,IV push medication,restricted-treat-as-CT,HP/CT,S1,reserved to CVT/DVM unless authorized,,,
-SCOPE-008,Anesthesia induction drug administration,delegation-sensitive,CT,S1,reserved to CVT/DVM,,,
-SCOPE-009,Anesthetic monitoring and recording,permitted as support,P,S1,under CVT/DVM running anesthesia,,,
-SCOPE-010,Adjusting vaporizer or anesthetic depth,treatment alteration,DVM/CT,,report only unless directly instructed,,,
-SCOPE-011,Endotracheal intubation,delegation-sensitive,CT/HP,S1,reserved to CVT/DVM at CVAH,,,
-SCOPE-012,Surgical prep clip and scrub,permitted,P,S2,,,,
-SCOPE-013,Sterile assistance instrument passing,permitted,A/P,S1,,,,
-SCOPE-014,Suturing or any surgery,prohibited,DVM,,never,,,
-SCOPE-015,Dental cleaning/polishing anesthetized delegated,delegation-sensitive,HP/CT,S1,[CVAH-SPECIFIC INPUT REQUIRED],,,
-SCOPE-016,Dental radiographs,permitted,P,S2,radiation safety module first,,,
-SCOPE-017,Diagnostic radiographs positioning/exposure,permitted,P,S2,dosimetry and safety module first,,,
-SCOPE-018,Interpreting radiographs,diagnosis,DVM,,technical quality flags only,,,
-SCOPE-019,In-house lab test performance,permitted,P,S2,QC per Lab Academy,,,
-SCOPE-020,Interpreting/reporting results to clients,diagnosis/prognosis,DVM/CT,,DVM-approved statements only,,,
-SCOPE-021,Filling prescriptions per DVM order,permitted with verification,P,S2,CVT/DVM verifies before dispensing,,,
-SCOPE-022,Prescribing or altering treatment plans,prohibited,DVM,,never,,,
-SCOPE-023,Controlled-substance log entries,permitted per registrant procedure,HP,S2,witness signature per policy,,,
-SCOPE-024,Euthanasia solution administration,prohibited for assistants,DVM,,never,,,
-SCOPE-025,CPR compressions/BLS support,permitted,P,S1,per RECOVER role assignment,,,
-SCOPE-026,Cystocentesis,treat as CVT/DVM,CT,,assist only,,,
-SCOPE-027,Client education approved scripts,permitted non-diagnostic,P,S3,approved topics list only,,,
+task_id,task,risk_tier,az_legal_ceiling,scope_class,supervision,statutory_supervision,cvah_policy,board_rule_verified,verified_date,verifier,next_review,assistant_permitted_pending_verification
+SCOPE-001,Patient restraint and handling,T1,permitted,P,S2,direct,per restraint policy,,,,,YES
+SCOPE-002,TPR/vitals acquisition,T1,permitted,P,S2,direct,,,,,,YES
+SCOPE-003,Venipuncture sample collection,T1,permitted,P,S2,direct,first 10 sticks S1,,,,,YES
+SCOPE-004,Peripheral IV catheter placement,T2,permitted under supervision,P,S1_then_S2,direct,[CVAH-SPECIFIC INPUT REQUIRED],NOT_VERIFIED,,,,NO
+SCOPE-005,SQ injection non-controlled DVM-ordered,T1,permitted,P,S2,direct,dose verified by CVT/DVM,,,,,YES
+SCOPE-006,IM injection DVM-ordered,T2,permitted,P,S1_then_S2,direct,dose verified by CVT/DVM,NOT_VERIFIED,,,,NO
+SCOPE-007,IV push medication,T2,restricted-treat-as-CT,HP/CT,S1,direct,reserved to CVT/DVM unless authorized,NOT_VERIFIED,,,,NO
+SCOPE-008,Anesthesia induction drug administration,T2,delegation-sensitive,CT,S1,direct,reserved to CVT/DVM,NOT_VERIFIED,,,,NO
+SCOPE-009,Anesthetic monitoring and recording,T2,permitted as support,P,S1,direct,under CVT/DVM running anesthesia,NOT_VERIFIED,,,,NO
+SCOPE-010,Adjusting vaporizer or anesthetic depth,T3,treatment alteration,DVM/CT,,,report only unless directly instructed,n/a,,,,NO
+SCOPE-011,Endotracheal intubation,T2,delegation-sensitive,CT/HP,S1,direct,reserved to CVT/DVM at CVAH,NOT_VERIFIED,,,,NO
+SCOPE-012,Surgical prep clip and scrub,T1,permitted,P,S2,direct,,,,,,YES
+SCOPE-013,Sterile assistance instrument passing,T1,permitted,A/P,S1,direct,,,,,,YES
+SCOPE-014,Suturing or any surgery,T3,prohibited,DVM,,,never,n/a,,,,NO
+SCOPE-015,Dental cleaning/polishing anesthetized delegated,T2,delegation-sensitive,HP/CT,S1,direct,[CVAH-SPECIFIC INPUT REQUIRED],NOT_VERIFIED,,,,NO
+SCOPE-016,Dental radiographs,T1,permitted,P,S2,direct,radiation safety module first,,,,,YES
+SCOPE-017,Diagnostic radiographs positioning/exposure,T1,permitted,P,S2,direct,dosimetry and safety module first,,,,,YES
+SCOPE-018,Interpreting radiographs,T3,diagnosis,DVM,,,technical quality flags only,n/a,,,,NO
+SCOPE-019,In-house lab test performance,T1,permitted,P,S2,direct,QC per Lab Academy,,,,,YES
+SCOPE-020,Interpreting/reporting results to clients,T3,diagnosis/prognosis,DVM/CT,,,DVM-approved statements only,n/a,,,,NO
+SCOPE-021,Filling prescriptions per DVM order,T2,permitted with verification,P,S2,direct,CVT/DVM verifies before dispensing,NOT_VERIFIED,,,,NO
+SCOPE-022,Prescribing or altering treatment plans,T3,prohibited,DVM,,,never,n/a,,,,NO
+SCOPE-023,Controlled-substance log entries,T2,permitted per registrant procedure,HP,S2,direct,witness signature per policy,NOT_VERIFIED,,,,NO
+SCOPE-024,Euthanasia solution administration,T3,prohibited for assistants,DVM,,,never,n/a,,,,NO
+SCOPE-025,CPR compressions/BLS support,T1,permitted,P,S1,direct,per RECOVER role assignment,,,,,YES
+SCOPE-026,Cystocentesis,T2,treat as CVT/DVM,CT,,,assist only,NOT_VERIFIED,,,,NO
+SCOPE-027,Client education approved scripts,T1,permitted non-diagnostic,P,S3,indirect,approved topics list only,,,,,YES

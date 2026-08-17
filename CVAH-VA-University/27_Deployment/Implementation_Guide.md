@@ -29,10 +29,26 @@ A new hire can start Week 0 the Monday after Phase C completes: pretest exists, 
 
 ---
 
+## Readiness — read this first (2026-08)
+
+This project's stage is **`LOCALIZATION REQUIRED`**, stage 2 of 6. `00_Project_Control/Go_Live_Status.md` is the authority; it lists what blocks the next stage and who owns each blocker. The earlier phrase "deployment-ready pending localization" overstated things and has been retired.
+
+**Safe today:** teaching. Lessons, skill courses, rubrics, case logs, the competency framework.
+**Not yet:** any clinical numeric guidance (reference cards unapproved), any T2 scope task (Board-rule verification outstanding), and failing any learner against material a CVAH clinician has not reviewed.
+
+Run `python3 00_Project_Control/qa_check.py` at any time for the current state. It is the same check CI runs.
+
 ## The live console (added 2026-08)
 
 `27_Deployment/cvah_university_console.html` is a single self-contained web page carrying the working core of the University: all 10 Clinical Skill Courses, all 30 lessons, every practical rubric, the competency framework, the scope matrix, and a symptom-first troubleshooting index — with search across all of it, print styles on every page, and the Phase-A approval checklist with saved progress.
 
 **Open it** by double-clicking the file (no server, no internet, no install), or use the hosted copy the practice manager holds.
-**Regenerate it** after any content change: `python3 27_Deployment/build_console.py`. It reads the Markdown in this repository and rewrites the HTML, so the repo stays the single source of truth.
-**Safety behavior:** the four draft reference cards render behind an explicit acknowledgment and carry a NOT FOR CLINICAL USE band until the medical director's values replace the drafts. Re-run the build after approval and the cards ship with their signatures.
+**Regenerate it** after any content change: `python3 27_Deployment/build_console.py`. It reads the repository and rewrites the HTML, so the repo stays the single source of truth. The QA suite fails if the committed console is stale.
+
+**Two builds, deliberately:**
+- `build_console.py` → the **production** console. Contains **no unapproved high-risk clinical values at all** — not hidden behind a click, absent from the file. Unapproved cards render a placeholder naming the card and what it awaits.
+- `build_console.py --review` → the **Medical Reviewer** copy (`…console.review.html`), which exposes pending draft values so they can be corrected and signed. Watermarked throughout. **Never deploy this file to learners.**
+
+Once a card is approved, set its row in `18_Controlled_References/crc_register.csv` to `approved` with reviewer, date and next-review, then rebuild — the production console will then carry the card with its provenance shown.
+
+**The console also tells you the truth about itself:** every page footer carries build time, curriculum version, commit SHA, source fingerprint and stage, and the page warns when it is more than 90 days old.

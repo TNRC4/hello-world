@@ -40,5 +40,21 @@ PEARLS: prime with the line's end held ABOVE the chamber then lower it — the c
 ## 12–13. Visuals & assessment
 VID-FLU-001 storyboard (spike technique straight-push macro; priming column against light; clamp-before-door drill; five-channel check walk-through). Practical: PA-FLU-001 (staged cloudy bag ★, staged occlusion alarm ★, additive-rule verbalization ★). Case log: ≥5 setups incl. pediatric set + bag change + staged alarms caught.
 
+## 14. Technique variation & house standard
+**Outcome requirements:** the ordered fluid reaching the vein at the ordered rate, air-free, with the line traceable and the site checked on schedule.
+
+**CVAH house standards** `[HOUSE]`: roller clamp closed before the pump door opens (reason: free-flow prevention — the one habit that works across every pump model ever made); the hourly five-channel check (reason: pumps report volume pushed, not destination); additive bags verified by CVT/DVM and pump-only (reason: potassium).
+
+**Genuinely variable:** priming technique (gravity-run versus squeeze-and-tap); where the strain loop is anchored; drip chamber filled at the lower or upper end of its range; the order in which the five channels are checked; labelling the bag or the line first.
+
+## 15. What may vary without being wrong
+> Do not fail a learner for: a priming method that ends with a genuinely air-free line · checking the site before the pump display · a different but complete check sequence · re-priming rather than replacing a set over a small bubble, where protocol allows · escalating an alarm they could not resolve inside two minutes — **that is the rule, not a failure.**
+
+## 16. Precision audit
+`[EVIDENCE/arithmetic]`: drip-rate maths is arithmetic, not preference — gtt/min = (mL/h ÷ 60) × set gtt/mL.
+`[GUIDE]`: 1/3–1/2 drip chamber fill · the two-minute alarm escalation threshold · the straw / bread-dough / wall flush analogies · 15–30 cm drop height.
+`[HOUSE]`: clamp-before-door · the hourly five-channel check · additive verification.
+`[SAFETY]`: never flick air toward a patient · never raise a pressure limit to silence an occlusion alarm · never adjust a rate to "catch up".
+
 ---
-*Reviews:* R1: added back-count arithmetic pearl, positional-occlusion test, down-side-limb palpation. R2: every alarm has a named first move; the five channels are a memorizable list. R3: hospital gains hourly line checks that actually check — the difference between infiltrations caught at 10 mL and at 400.
+*Reviews (R1a — would an experienced CVAH technician disagree that any one method is presented as the only correct method? **Pending human review at pilot; see `00_Project_Control/Pilot_Feedback_Loop.md`**):* R1: added back-count arithmetic pearl, positional-occlusion test, down-side-limb palpation. R2: every alarm has a named first move; the five channels are a memorizable list. R3: hospital gains hourly line checks that actually check — the difference between infiltrations caught at 10 mL and at 400.

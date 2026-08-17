@@ -97,7 +97,7 @@ Embedded in PA-VEN-CEPH-001 (behavioral anchors, no impressionistic scoring).
 State 8: Assessor (CVT/DVM) signs passed rubric. State 9: automatic after 10 supervised post-assessment draws logged without complication pattern. State 10: Assessor + Supervising Veterinarian co-sign.
 
 ## 27. Sources
-McCurnin's Clinical Textbook for Veterinary Technicians and Nurses (current ed.) — venipuncture chapters; AAHA technician utilization guidelines; CVAH restraint policy; A.R.S. § 32-2281 (scope). Full citations: `25_References/Source_Library.md`.
+McCurnin's Clinical Textbook for Veterinary Technicians and Nurses (current ed.) — venipuncture chapters; AAHA technician utilization guidelines; CVAH restraint policy; A.R.S. § 32-2211(5) (assistant exemption). Full citations: `25_References/Source_Library.md`.
 
 ## 28. Revision history
 1.0 · 2026-08-17 · Initial build · Medical review: PENDING

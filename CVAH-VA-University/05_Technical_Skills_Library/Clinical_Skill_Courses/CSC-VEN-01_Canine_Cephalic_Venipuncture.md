@@ -41,7 +41,7 @@ Quick pre-read: is this dog loose and wiggly (needs firm holder), frozen and sta
 
 **Step 7 — Aspirate like you're sipping.** DO: pull the plunger with about the force you'd use to lift a coin — a few millimeters at a time; let the barrel fill at the vein's pace. Small dog = slow fill; that's physiologic, not failure. WHY: your thumb sets the pressure differential; the vein's refill sets the speed limit. Exceed it and the walls clap shut. EXPECT: steady dark red climb; slight pulsing with the traction hand's grip is normal. COMMON ERROR: ratcheting harder as flow slows — the death spiral (harder pull → tighter collapse → harder pull → hemolyzed half-sample). RECOVERY: ease OFF the plunger, let the vein re-expand two seconds, resume gentler. STOP: patient stress escalating (see the holder's face, not just the leg) — a two-thirds sample and a calm patient beats a full tube and a fight.
 
-**Step 8 — Exit in the only correct order.** DO: say "release" (holder's thumb OFF, restraint stays ON) → withdraw the needle smoothly along its own line → holder or you clamps gauze on the site with real pressure. WHY: pulling a needle out of a still-pressurized vein squirts blood into the tissue — that's the hematoma you'll be apologized for tomorrow. EXPECT: a clean site; a single drop at most. COMMON ERROR: the order scramble under time pressure — needle out first, THEN "release." RECOVERY: firm pressure 60+ s, say what happened, check before kennel return. STOP: n/a.
+**Step 8 — Exit in the order that prevents hematoma.** DO: say "release" (holder's thumb OFF, restraint stays ON) → withdraw the needle smoothly along its own line → holder or you clamps gauze on the site with real pressure. WHY: pulling a needle out of a still-pressurized vein pushes blood into the tissue — that's the hematoma you'll be apologized for tomorrow. EXPECT: a clean site; a single drop at most. COMMON ERROR: the order scramble under time pressure — needle out first, THEN "release." RECOVERY: firm pressure 60+ s, say what happened, check before kennel return. STOP: n/a.
 
 **Step 9 — The second race.** DO: needle OFF the syringe (or transfer device per house policy), blood run down the tube WALL: citrate to its line first if coags ordered, then lavender — filled and inverted 8–10 times immediately — then the rest. Gentle wrist rolls, never shakes. Label every tube at the table, before your hand leaves it. WHY: everything in TS-SAM-001; the summary is *anticoagulant tubes are on the clock and stoppers punched by needles eat cells.* EXPECT: 20–30 unhurried seconds. COMMON ERROR: carrying naked tubes to the bench "to label there." RECOVERY: if interrupted mid-transfer, the person who drew finishes the transfer — handoffs mid-race cause both clots and swaps. STOP: n/a.
 
@@ -86,5 +86,24 @@ VID-VEN-CEPH-001 (storyboard in 20_LMS/Video_System — correct run + the three 
 ## 13. Assessment & competency links
 Knowledge: QB-CORE-VEN (rewritten bank; ≥80%, SC 100%). Practical: PA-VEN-CEPH-001. Case log: per TS-VEN-CEPH-001 §24 (model ×10 → observed ×3 → coached ×5 incl. cat+dog → 15 logged for state 10).
 
+## 14. Technique variation & house standard
+**Outcome requirements** (these are the job): a usable, correctly-filled, correctly-labelled sample; a patient no more stressed than when you started; a site that isn't bruising; no sharps incident.
+
+**CVAH house standards** `[HOUSE]` — and why each exists:
+- **Label at patient-side, before the tube leaves your hand.** Reason: swap prevention.
+- **Two attempts, then hand off.** Reason: vein preservation and patient trust — and it removes the social pressure to keep trying. Counted per person.
+- **Release occlusion before withdrawing.** Reason: hematoma prevention. The physiology is real, though the cost of getting it wrong is a bruise, not a catastrophe.
+
+**What experienced people here genuinely do differently, and it's fine:** thumb anchored below the vein versus a two-finger stretch around it; entering beside the vein and walking into it versus straight in; butterfly by default versus needle-and-syringe by default; constant talking versus working in silence; alcohol first versus palpate-then-alcohol.
+
+## 15. What may vary without being wrong
+> An assessor **must not** fail a learner for any of these: entry angle anywhere in a shallow range that works for that limb · anchoring style (thumb beside, two-finger stretch, skin-pinch-and-roll) · needle-and-syringe versus butterfly · which hand takes the traction, if holder and phlebotomist have agreed · clipping a window versus parting fur with alcohol · counting a subcutaneous redirect as the same attempt or exiting and calling it two (the conservative reading is never wrong) · the order of gauze-versus-sharps in the final seconds, provided both happen and the sharp is never set down.
+
+## 16. Precision audit
+`[GUIDE]` scaffolding, vary freely: 15–30° entry · 1–2 mm advance after flash · 3–8 second fill wait · the "lift a coin" aspiration force · the cooked/uncooked-spaghetti analogy · 30–60 second pressure hold · ≥10 model sticks before live.
+`[HOUSE]`: two-attempt limit · patient-side labelling · release-before-withdraw.
+`[SAFETY]`: no hand recapping · sharps container within reach before uncapping · stop on patient distress · two-identifier check.
+`[EVIDENCE]`: gentle aspiration to limit haemolysis; prompt anticoagulant mixing.
+
 ---
-*Internal reviews:* R1 (experienced tech): added look-away palpation, release-order verbal cue, windshield-wiper ban, holder push-not-pull — the four things every trainer repeats. R2 (novice): standing/kneeling position, which hand owns what, and all "give" sensations now explicit; success and failure states defined at every step. R3 (utility): after this course + lab, supervised training starts at coached live draws, not at "what's an occlusion" — the hospital gains a phlebotomy trainee who costs one CVT shadow, not two.
+*Reviews (R1a — would an experienced CVAH technician disagree that any one method is presented as the only correct method? **Pending human review at pilot; see `00_Project_Control/Pilot_Feedback_Loop.md`**):* R1 (experienced tech): added look-away palpation, release-order verbal cue, windshield-wiper ban, holder push-not-pull — the four things every trainer repeats. R2 (novice): standing/kneeling position, which hand owns what, and all "give" sensations now explicit; success and failure states defined at every step. R3 (utility): after this course + lab, supervised training starts at coached live draws, not at "what's an occlusion" — the hospital gains a phlebotomy trainee who costs one CVT shadow, not two.

@@ -41,5 +41,20 @@ PEARLS: The mat first, always — traction is tranquility. · Narrate transition
 ## 12–13. Visuals & assessment
 VID-RES-001/002 storyboards (takedown slow-mo with limb-grip macro ABOVE joints; trachea-vs-shoulder pressure diagram; correct vs face-in-arc sternal hold). INT-07 body-language set precedes floor work. Practical: PA-RES-001 §A–D (includes the scripted distress probe and stop-call). Case log: coached counts per specs; assessed live Weeks 1–2.
 
+## 14. Technique variation & house standard
+**Outcome requirements:** the procedure can happen, the patient's airway and joints stay safe, nobody is bitten, and the dog is not worse for next time.
+
+**CVAH house standards** `[HOUSE]`: non-slip surface under every patient (reason: scrabbling drives panic); flags on the record are plans, not opinions (reason: someone already learned that lesson); anyone may call a stop (reason: the person feeling it go wrong is often not the person in charge).
+
+**Genuinely variable:** hug-hold geometry differs with handler height and dog size; some experienced people take a dog down front-end-first, others rear-first; kneeling versus standing; treats throughout versus treats after; how much talking.
+
+## 15. What may vary without being wrong
+> Do not fail a learner for: a takedown sequence that reaches lateral safely by a different order · holding limbs at a different point above the joint · calling for a second handler earlier than the rubric assumed — **asking for help early is competence** · choosing standing over sternal where both work · declining a hold and proposing the sedation conversation.
+
+## 16. Precision audit
+`[GUIDE]`: the "firm hug" pressure analogy · the 15–20 second struggle ceiling · the soften-10% trick · the 180° head-whip figure.
+`[HOUSE]`: mat-first · flag compliance · stop-call authority.
+`[SAFETY]`: no tracheal pressure · never drop a patient · no face in the bite arc after correction · stop on cyanosis or gasping.
+
 ---
-*Reviews:* R1: added still-loose vs still-hard distinction, the soften-10% paradox, rear-first release. R2: every hold now names both arms' jobs and where your face goes. R3: a signed-off restrainer frees a CVT at every procedure — the first and largest workload transfer in the Core.
+*Reviews (R1a — would an experienced CVAH technician disagree that any one method is presented as the only correct method? **Pending human review at pilot; see `00_Project_Control/Pilot_Feedback_Loop.md`**):* R1: added still-loose vs still-hard distinction, the soften-10% paradox, rear-first release. R2: every hold now names both arms' jobs and where your face goes. R3: a signed-off restrainer frees a CVT at every procedure — the first and largest workload transfer in the Core.

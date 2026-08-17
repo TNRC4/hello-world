@@ -42,5 +42,21 @@ PEARLS: clip the margins FIRST, then fill in — the outline commits you to corr
 ## 12–13. Visuals & assessment
 VID-SUR-PREP-001 storyboard (taut-skin clipper technique macro; the spiral with trash-at-margin emphasis; pooling dam placement; blade wrist-check). Stills: correct margins vs stingy margins on a model; the corduroy dull-blade trail. Practical: PA-SUR-PREP-001 (site/side mismatch probe ★, staged skin-lesion find, cycle-integrity observed). Case log: ≥5 coached across ≥2 procedure types.
 
+## 14. Technique variation & house standard
+**Outcome requirements:** correct patient and correct site; hair removed well beyond the planned field; skin clean and undamaged; patient warm; field untouched on arrival in theatre.
+
+**CVAH house standards** `[HOUSE]`: verbalized site/side confirmation to the anesthetist (reason: wrong-site surgery is the never-event this prevents); centre-outward scrubbing with fresh gauze (reason: contamination gradient); report every nick and burn (reason: concealment is the offence).
+
+**Genuinely variable:** clipper stroke direction and number of passes; scrub applied by gauze, sponge, or applicator per protocol; how margins are visualized; clipping the outline first versus filling in; two-person versus one-person prep.
+
+## 15. What may vary without being wrong
+> Do not fail a learner for: a different clipping pattern that achieves generous, even margins · exceeding the minimum cycle count because the gauze wasn't clean yet — **that is the endpoint working as designed** · asking the surgeon to confirm margins · pausing the prep over a patient-depth concern.
+
+## 16. Precision audit
+`[IFU]`: scrub agent contact times come from the product label and the hospital protocol — **not** from this course.
+`[GUIDE]`: the 60–90 second blade-heat check interval · the "cleaning a pan you like" friction analogy · 30–60 s per cycle.
+`[HOUSE]`: the site/side liturgy · centre-out discipline · lesion reporting.
+`[SAFETY]`: an unresolved site/side mismatch stops everything · no blade near a moving patient.
+
 ---
-*Reviews:* R1: added margin-outline-first pearl, cycle-integrity restart rule, moving-patient blade pause. R2: hand jobs and stroke mechanics explicit; endpoint defined twice (count AND clean gauze). R3: hospital gains preps that hold up under the drape — and a prep-bay assistant who guards temperature and position while the CVT is freed for anesthesia.
+*Reviews (R1a — would an experienced CVAH technician disagree that any one method is presented as the only correct method? **Pending human review at pilot; see `00_Project_Control/Pilot_Feedback_Loop.md`**):* R1: added margin-outline-first pearl, cycle-integrity restart rule, moving-patient blade pause. R2: hand jobs and stroke mechanics explicit; endpoint defined twice (count AND clean gauze). R3: hospital gains preps that hold up under the drape — and a prep-bay assistant who guards temperature and position while the CVT is freed for anesthesia.

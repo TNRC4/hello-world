@@ -1,0 +1,474 @@
+<title>CVAH Veterinary Assistant University</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --ink:#16232b; --ink-2:#41545f; --ink-3:#5c7078;
+  --bg:#f4f7f7; --surface:#ffffff; --surface-2:#eef3f3; --line:#d8e3e3; --line-2:#c2d3d3;
+  --accent:#0f6b6b; --accent-ink:#0b5252; --accent-wash:#e2efee;
+  --warn:#9a6f0d; --warn-bg:#fdf4dd; --warn-line:#e6c76a;
+  --stop:#a3322a; --stop-bg:#fbeceb; --stop-line:#e0a49e;
+  --ok:#2e7d4f; --ok-bg:#e6f2ea; --ok-line:#a9cdb8;
+  --radius:10px; --maxw:74ch;
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ink:#e6eeee; --ink-2:#a8bcc2; --ink-3:#7e949c;
+    --bg:#0e1719; --surface:#152225; --surface-2:#1b2b2e; --line:#27383c; --line-2:#33484d;
+    --accent:#4fb3ac; --accent-ink:#7fcdc6; --accent-wash:#16302f;
+    --warn:#e8c46a; --warn-bg:#2c2410; --warn-line:#6b5720;
+    --stop:#f0a49b; --stop-bg:#331917; --stop-line:#7a3b35;
+    --ok:#6fc493; --ok-bg:#14291f; --ok-line:#2c5740;
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#e6eeee; --ink-2:#a8bcc2; --ink-3:#7e949c;
+  --bg:#0e1719; --surface:#152225; --surface-2:#1b2b2e; --line:#27383c; --line-2:#33484d;
+  --accent:#4fb3ac; --accent-ink:#7fcdc6; --accent-wash:#16302f;
+  --warn:#e8c46a; --warn-bg:#2c2410; --warn-line:#6b5720;
+  --stop:#f0a49b; --stop-bg:#331917; --stop-line:#7a3b35;
+  --ok:#6fc493; --ok-bg:#14291f; --ok-line:#2c5740;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.62;-webkit-text-size-adjust:100%}
+a{color:var(--accent-ink);text-underline-offset:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+code,.id{font-family:var(--mono);font-size:.86em;letter-spacing:-.01em}
+.id{color:var(--accent-ink);white-space:nowrap}
+code{background:var(--surface-2);padding:.1em .34em;border-radius:4px}
+.lvl{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;padding:2px 5px;border-radius:4px;
+  border:1px solid var(--line-2);color:var(--ink-2);background:var(--surface-2);vertical-align:1px}
+.lvl-SAFETY,.lvl-LAW{background:var(--stop-bg);border-color:var(--stop-line);color:var(--stop)}
+.lvl-HOUSE,.lvl-IFU{background:var(--warn-bg);border-color:var(--warn-line);color:var(--warn)}
+.lvl-GUIDE,.lvl-SCORED{background:var(--accent-wash);border-color:var(--accent);color:var(--accent-ink)}
+
+header.top{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line);
+  padding:10px 18px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.brand{display:flex;flex-direction:column;line-height:1.15;margin-right:auto}
+.brand b{font-size:15px;letter-spacing:-.015em}
+.brand span{font-size:11px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.1em}
+#q{flex:1 1 260px;min-width:180px;max-width:440px;font:inherit;font-size:15px;padding:9px 12px;
+  border:1px solid var(--line-2);border-radius:8px;background:var(--bg);color:var(--ink)}
+#q::placeholder{color:var(--ink-3)}
+.pill{font-family:var(--mono);font-size:11px;padding:4px 9px;border-radius:999px;white-space:nowrap;
+  border:1px solid var(--warn-line);background:var(--warn-bg);color:var(--warn)}
+.pill.rev{border-color:var(--stop-line);background:var(--stop-bg);color:var(--stop)}
+
+.wrap{display:grid;grid-template-columns:238px minmax(0,1fr)}
+nav{position:sticky;top:59px;max-height:calc(100vh - 59px);overflow-y:auto;padding:16px 10px 40px;border-right:1px solid var(--line)}
+nav h3{font-size:10.5px;text-transform:uppercase;letter-spacing:.13em;color:var(--ink-3);margin:16px 8px 5px;font-weight:600}
+nav h3:first-child{margin-top:0}
+nav button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--ink-2);font:inherit;
+  font-size:13.5px;padding:5px 9px;border-radius:6px;cursor:pointer;line-height:1.35}
+nav button:hover{background:var(--surface-2);color:var(--ink)}
+nav button[aria-current="true"]{background:var(--accent-wash);color:var(--accent-ink);font-weight:600}
+nav .meta{display:block;font-family:var(--mono);font-size:10px;color:var(--ink-3);margin-top:1px}
+
+main{padding:26px 30px 90px;min-width:0}
+.doc{max-width:var(--maxw)}
+.doc.wide{max-width:100%}
+h1.page{font-size:27px;letter-spacing:-.022em;margin:0 0 4px;text-wrap:balance;line-height:1.2}
+.sub{color:var(--ink-3);font-size:12.5px;margin:0 0 22px;font-family:var(--mono);letter-spacing:.01em}
+.lead{color:var(--ink-2);font-size:15.5px;margin:0 0 22px;max-width:66ch;line-height:1.6}
+.doc h2{font-size:19px;letter-spacing:-.015em;margin:30px 0 8px;text-wrap:balance;padding-bottom:5px;border-bottom:1px solid var(--line)}
+.doc h3{font-size:15.5px;margin:22px 0 5px;text-wrap:balance}
+.doc h4,.doc h5,.doc h6{font-size:14px;margin:16px 0 4px;color:var(--ink-2)}
+.doc p{margin:.6em 0}
+.doc ul,.doc ol{margin:.5em 0;padding-left:1.35em}
+.doc li{margin:.24em 0}
+.doc hr{border:0;border-top:1px solid var(--line);margin:24px 0}
+.doc blockquote{margin:.8em 0;padding:.5em 0 .5em 14px;border-left:3px solid var(--accent);color:var(--ink-2);
+  background:var(--accent-wash);border-radius:0 6px 6px 0}
+.tw{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{text-align:left;padding:8px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--surface-2);font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-2);font-weight:600;white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td{font-variant-numeric:tabular-nums}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;margin:14px 0}
+.grid{display:grid;gap:12px;margin:16px 0}
+@media(min-width:700px){.grid.two{grid-template-columns:1fr 1fr}.grid.four{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1050px){.grid.four{grid-template-columns:repeat(4,1fr)}}
+.rolecard{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:var(--radius);
+  padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.rolecard:hover{background:var(--surface-2)}
+.rolecard b{display:block;font-size:14.5px;margin-bottom:3px}
+.rolecard span{font-size:13px;color:var(--ink-2);line-height:1.5}
+
+.banner{border-radius:var(--radius);padding:14px 16px;margin:0 0 20px;border:1px solid}
+.banner.warn{background:var(--warn-bg);border-color:var(--warn-line);color:var(--warn)}
+.banner.stop{background:var(--stop-bg);border-color:var(--stop-line);color:var(--stop)}
+.banner.ok{background:var(--ok-bg);border-color:var(--ok-line);color:var(--ok)}
+.banner b{display:block;margin-bottom:3px;font-size:14px}
+.banner p{margin:0;font-size:13.5px;line-height:1.55}
+
+.stage{display:flex;gap:0;margin:16px 0;flex-wrap:wrap;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.stage div{flex:1 1 140px;padding:9px 11px;font-size:11.5px;border-right:1px solid var(--line);background:var(--surface);color:var(--ink-3)}
+.stage div:last-child{border-right:0}
+.stage div.done{background:var(--ok-bg);color:var(--ok)}
+.stage div.now{background:var(--warn-bg);color:var(--warn);font-weight:600}
+.stage b{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.07em;margin-bottom:2px;opacity:.75}
+
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin:16px 0}
+.meta-grid div{background:var(--surface);padding:9px 11px}
+.meta-grid dt{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin:0 0 2px}
+.meta-grid dd{margin:0;font-size:14px;font-variant-numeric:tabular-nums}
+.meta-grid dd.bad{color:var(--stop);font-weight:600}
+.meta-grid dd.good{color:var(--ok)}
+
+ol.gate{list-style:none;padding:0;margin:16px 0;counter-reset:g}
+ol.gate li{counter-increment:g;display:flex;gap:12px;align-items:flex-start;background:var(--surface);
+  border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;margin-bottom:8px}
+ol.gate li::before{content:counter(g);font-family:var(--mono);font-size:11px;color:var(--accent-ink);background:var(--accent-wash);
+  width:22px;height:22px;border-radius:50%;display:grid;place-items:center;flex:0 0 22px;margin-top:2px}
+ol.gate input{width:17px;height:17px;margin-top:4px;accent-color:var(--accent);flex:0 0 17px;cursor:pointer}
+ol.gate .g-b{flex:1;min-width:0}
+ol.gate b{display:block;font-size:14px}
+ol.gate p{margin:2px 0 0;font-size:13px;color:var(--ink-2)}
+ol.gate .t{font-family:var(--mono);font-size:11px;color:var(--ink-3);white-space:nowrap;margin-top:3px}
+ol.gate li.done b{text-decoration:line-through;color:var(--ink-3)}
+.prog{height:5px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin:6px 0 0}
+.prog i{display:block;height:100%;background:var(--accent);transition:width .3s}
+
+.band{margin:18px 0}
+.band>h3{display:flex;align-items:baseline;gap:9px;font-size:12px;font-family:var(--mono);letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 8px}
+.band>h3 em{font-style:normal;font-family:var(--sans);font-size:12.5px;letter-spacing:0;text-transform:none}
+.band.now .item{border-left:3px solid var(--accent)}
+.band.next .item{border-left:3px solid var(--line-2);opacity:.85}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 15px;
+  margin-bottom:8px;text-align:left;font:inherit;color:inherit;width:100%;cursor:pointer;display:block}
+.item:hover{background:var(--surface-2)}
+.item b{display:block;font-size:14.5px}
+.item span{font-size:13px;color:var(--ink-2)}
+.later{color:var(--ink-3);font-size:13.5px}
+
+.tlist{margin:14px 0;display:grid;gap:7px}
+.trow{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:11px 14px;
+  cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%;display:block}
+.trow:hover{background:var(--surface-2)}
+.trow b{display:block;font-size:14px;margin-bottom:2px}
+.trow span{font-size:13px;color:var(--ink-2);line-height:1.5}
+.trow em{display:block;font-family:var(--mono);font-size:10.5px;color:var(--ink-3);font-style:normal;margin-top:5px}
+.unrev{font-family:var(--mono);font-size:9.5px;letter-spacing:.07em;color:var(--warn);background:var(--warn-bg);
+  border:1px solid var(--warn-line);border-radius:4px;padding:1px 5px;margin-left:6px}
+
+.crc{border:1px solid var(--line);border-radius:var(--radius);margin:12px 0;overflow:hidden;background:var(--surface)}
+.crc .h{padding:11px 15px;font-size:14px;font-weight:600;display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.crc.pending .h{background:var(--surface-2);color:var(--ink-2)}
+.crc.approved{border-color:var(--ok-line)}
+.crc.approved .h{background:var(--ok-bg);color:var(--ok)}
+.crc.review .h{background:var(--stop-bg);color:var(--stop)}
+.crc .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;font-weight:400}
+.crc .body{padding:2px 16px 14px}
+.crc .withheld{padding:12px 16px 15px;font-size:13.5px;color:var(--ink-2);line-height:1.55}
+.crc .withheld b{color:var(--ink);display:block;margin-bottom:3px;font-size:13.5px}
+.crc.review .body::before{content:"REVIEW BUILD — UNAPPROVED DRAFT VALUES — NOT FOR CLINICAL USE";display:block;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;color:var(--stop);background:var(--stop-bg);
+  padding:6px 10px;border-radius:6px;margin:12px 0}
+
+#results{margin:0 0 18px}
+.res{display:block;width:100%;text-align:left;font:inherit;color:inherit;background:var(--surface);
+  border:1px solid var(--line);border-radius:var(--radius);padding:11px 14px;margin-bottom:7px;cursor:pointer}
+.res:hover{background:var(--surface-2)}
+.res b{font-size:14px}
+.res .g{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);margin-left:7px}
+.res p{margin:3px 0 0;font-size:13px;color:var(--ink-2);line-height:1.5}
+.res mark{background:var(--warn-bg);color:inherit;padding:0 2px;border-radius:2px}
+.empty{color:var(--ink-3);font-size:14px;padding:14px 0}
+
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}
+.tools button{font:inherit;font-size:12.5px;background:var(--surface);color:var(--ink-2);border:1px solid var(--line-2);
+  border-radius:7px;padding:6px 12px;cursor:pointer}
+.tools button:hover{background:var(--surface-2);color:var(--ink)}
+.navtoggle{display:none}
+footer.bld{border-top:1px solid var(--line);margin-top:40px;padding:14px 0 0;font-family:var(--mono);
+  font-size:10.5px;color:var(--ink-3);line-height:1.7}
+
+@media(max-width:860px){
+  .wrap{grid-template-columns:1fr}
+  nav{position:static;max-height:none;border-right:0;border-bottom:1px solid var(--line);display:none}
+  nav.open{display:block}
+  .navtoggle{display:inline-block;font:inherit;font-size:12.5px;background:var(--surface);border:1px solid var(--line-2);
+    color:var(--ink-2);border-radius:7px;padding:7px 12px;cursor:pointer}
+  main{padding:20px 16px 70px}
+  h1.page{font-size:23px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+@media print{
+  header.top,nav,.tools,#results{display:none!important}
+  .wrap{display:block} main{padding:0}
+  body{background:#fff;color:#000;font-size:11pt}
+  .doc{max-width:none}
+  .card,.tw,.crc,.item{break-inside:avoid}
+  a{text-decoration:none;color:#000}
+}
+</style>
+
+<header class="top">
+  <div class="brand"><b>CVAH Veterinary Assistant University</b><span>Learn it · Practice it · Prove it · Use it</span></div>
+  <input id="q" type="search" placeholder="Search everything — try &quot;won't thread&quot; or &quot;flat capnograph&quot;" autocomplete="off" aria-label="Search the university">
+  <span class="pill" id="statuspill"></span>
+  <button class="navtoggle" id="navtoggle" aria-expanded="false">Menu</button>
+</header>
+
+<div class="wrap">
+  <nav id="nav" aria-label="Sections"></nav>
+  <main>
+    <div id="results" hidden></div>
+    <div id="view"></div>
+  </main>
+</div>
+
+<script>
+const DATA = __DATA__;
+const GROUPS = __GROUPS__;
+const M = DATA.meta;
+const $ = s => document.querySelector(s);
+const byId = Object.fromEntries(DATA.docs.map(d => [d.id, d]));
+function esc(s){const d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML}
+
+const STAGES = ["CONTENT COMPLETE","LOCALIZATION REQUIRED","MEDICAL / REGULATORY REVIEW","PILOT READY","PILOT VALIDATED","LIVE"];
+const ageDays = Math.floor((Date.now()/1000 - M.built_epoch) / 86400);
+const stale = ageDays > M.stale_after_days;
+
+/* ---------- nav ---------- */
+function buildNav(){
+  const n = $('#nav'); n.innerHTML = '';
+  GROUPS.forEach(g => {
+    const items = g === 'Start'
+      ? [{id:'start',title:'Start here',meta:'status & gates'},{id:'today',title:'What am I doing today?',meta:'now / next / later'},
+         {id:'find',title:'Find it fast',meta:'symptom index'},{id:'passport',title:'Passport states',meta:'1 → 14'}]
+      : g === 'Reference' ? [{id:'cards',title:'Clinical reference cards',meta:M.crc_approved+'/'+M.crc_total+' approved'}]
+      : DATA.docs.filter(d => d.group === g);
+    if(!items.length) return;
+    const h = document.createElement('h3'); h.textContent = g; n.appendChild(h);
+    items.forEach(d => {
+      const b = document.createElement('button');
+      b.dataset.id = d.id;
+      b.innerHTML = esc(d.title) + (d.meta ? '<span class="meta">'+esc(d.meta)+'</span>' : '');
+      b.onclick = () => show(d.id);
+      n.appendChild(b);
+    });
+  });
+}
+
+/* ---------- pages ---------- */
+function startPage(){
+  const done = JSON.parse(localStorage.getItem('cvah_gate') || '[]');
+  const pct = Math.round(done.length / DATA.gate.length * 100);
+  const si = STAGES.indexOf(M.stage);
+  return `<div class="doc">
+  <h1 class="page">Start here</h1>
+  <p class="lead">This page tells you exactly how far this system has come and what is still standing between it and clinical use. The stage name is a claim about safety, not about effort spent.</p>
+
+  ${stale ? `<div class="banner stop"><b>This build is ${ageDays} days old</b><p>Content may have changed since it was generated. Regenerate with <code>python3 27_Deployment/build_console.py</code> before relying on it.</p></div>` : ``}
+
+  <h2>Where this stands</h2>
+  <div class="stage">${STAGES.map((s,i)=>`<div class="${i<si?'done':(i===si?'now':'')}"><b>STAGE ${i+1}</b>${esc(s)}</div>`).join('')}</div>
+
+  <div class="meta-grid">
+    <div><dt>T2 scope rows unverified</dt><dd class="${M.t2_unverified?'bad':'good'}">${M.t2_unverified} / ${M.t2_rows}</dd></div>
+    <div><dt>Reference cards approved</dt><dd class="${M.crc_approved<M.crc_total?'bad':'good'}">${M.crc_approved} / ${M.crc_total}</dd></div>
+    <div><dt>KB entries unreviewed</dt><dd class="${M.kb_unreviewed?'bad':'good'}">${M.kb_unreviewed} / ${M.kb_entries}</dd></div>
+    <div><dt>Local-input items open</dt><dd class="${M.placeholders?'bad':'good'}">${M.placeholders}</dd></div>
+    <div><dt>Regulatory verified</dt><dd class="${M.regulatory_verified?'':'bad'}">${esc(M.regulatory_verified || 'never')}</dd></div>
+    <div><dt>Documents in this build</dt><dd>${M.doc_count}</dd></div>
+  </div>
+
+  <div class="banner warn"><b>Safe to teach from today · not yet cleared for clinical numbers</b>
+  <p>The ${M.lesson_count} lessons, ${M.csc_count} skill courses, ${M.rubric_count} rubric documents and the whole competency framework work now and need no signature to be useful. What must wait: anything numeric-and-clinical, anything that would fail a learner against unreviewed material, and any T2 scope task.</p></div>
+
+  <h2>The gates before clinical use</h2>
+  <div class="prog"><i style="width:${pct}%"></i></div>
+  <ol class="gate">${DATA.gate.map((g,i)=>{
+    const d = done.includes(i);
+    return `<li class="${d?'done':''}" data-i="${i}"><input type="checkbox" ${d?'checked':''} aria-label="Mark complete">
+      <div class="g-b"><b>${esc(g[0])}</b><p>${esc(g[1])}</p>
+      ${g[2]?`<div class="t">→ <a href="#" data-go="${g[2]}">open the document</a></div>`:''}</div>
+      <div class="t">${esc(g[3])}</div></li>`;}).join('')}</ol>
+
+  <h2>Who are you today?</h2>
+  <div class="grid four">
+    <button class="rolecard" data-go="today"><b>New hire</b><span>What you're working on right now — one to three things, nothing else.</span></button>
+    <button class="rolecard" data-go="rub-std"><b>Assessor</b><span>Scoring standards, then the rubric for what you're observing.</span></button>
+    <button class="rolecard" data-go="workload"><b>Manager</b><span>What workload transfers at each sign-off, and the nine gates.</span></button>
+    <button class="rolecard" data-go="status"><b>Medical director</b><span>What is waiting on your signature, and why it is withheld until then.</span></button>
+  </div>
+
+  <blockquote>Graduation is nine gates, not eight weeks. The moment someone graduates a learner because Week 8 arrived, this becomes an ordinary onboarding packet with extra paperwork.</blockquote>
+  ${footer()}</div>`;
+}
+
+const NOW = [
+  {id:'csc-res01', t:'Canine restraint', s:'Get the hold right and every other skill gets easier. Aim for 5 coached dogs.'},
+  {id:'csc-res02', t:'Feline restraint', s:'Towel first. Aim for 3 coached cats before anyone assesses you.'},
+  {id:'csc-asm01', t:'TPR & basic assessment', s:'Numbers a vet can act on. 10 coached, values matched to your trainer.'}];
+const NEXT = [
+  {id:'lsn-w2-03', t:'Medication foundations'}, {id:'csc-ven01', t:'Canine cephalic venipuncture'},
+  {id:'csc-ven02', t:'Feline medial saphenous'}, {id:'csc-flu01', t:'Fluid lines & pumps'}];
+function todayPage(){
+  return `<div class="doc">
+  <h1 class="page">What am I doing today?</h1>
+  <p class="lead">One to three things at a time. The rest of the University is still there when you want it — it just isn't your problem this week.</p>
+  <div class="banner ok"><b>This is a starting default, not your plan</b><p>Your trainer sets your actual Now band from your passport. Ask them to pin or park anything here. Needing more repetitions is how motor skills work — it is not a mark against you.</p></div>
+
+  <div class="band now"><h3>NOW <em>— what you're working on</em></h3>
+  ${NOW.map(x=>`<button class="item" data-go="${x.id}"><b>${esc(x.t)}</b><span>${esc(x.s)}</span></button>`).join('')}</div>
+
+  <div class="band next"><h3>NEXT <em>— opens when Now is signed off</em></h3>
+  ${NEXT.map(x=>`<button class="item" data-go="${x.id}"><b>${esc(x.t)}</b></button>`).join('')}</div>
+
+  <div class="band"><h3>LATER <em>— the whole library, when you want it</em></h3>
+  <p class="later">${M.doc_count} documents: every lesson, skill course, rubric, specialty academy and governance document. Use the search box at the top, or the menu on the left. Nobody expects you to read it.</p></div>
+
+  <p class="lead" style="font-size:14px">Full rules: <a href="#" data-go="focus">the learner focus model</a>. It does not change the <a href="#" data-go="grad">nine graduation gates</a> — those stand exactly as written.</p>
+  ${footer()}</div>`;
+}
+
+function findPage(){
+  return `<div class="doc"><h1 class="page">Find it fast</h1>
+  <p class="lead">Symptom in, answer out. Tap any row for the full course.</p>
+  ${M.kb_unreviewed ? `<div class="banner warn"><b>${M.kb_unreviewed} of ${M.kb_entries} entries are awaiting clinician review</b><p>They are drawn directly from the skill courses and are safe to teach from, but no CVAH clinician has signed them yet. Marked below.</p></div>` : ``}
+  <div class="tlist">${DATA.trouble.map(t=>`<button class="trow" data-go="${t.target}">
+    <b>${esc(t.symptom)}${t.approved?'':'<span class="unrev">UNREVIEWED</span>'}</b><span>${esc(t.answer)}</span>
+    <em>${esc((byId[t.target]||{}).title||t.target)} · ${esc(t.id)}</em></button>`).join('')}</div>
+  ${footer()}</div>`;
+}
+
+const STATES = [["Not introduced",""],["Theory assigned",""],["Theory complete","knowledge check passed"],["Demonstration observed",""],
+["Practicing with direct supervision","S1"],["Repetition requirement in progress","case log accruing"],["Practical assessment ready","trainer flags"],
+["Practical assessment passed","assessor signs"],["Competent under defined supervision","consolidation"],
+["Independently assignable within hospital policy","assessor + DVM"],["Remediation required",""],["Revalidation due",""],
+["Temporarily restricted","DVM review ≤48 h"],["Competency expired",""]];
+function passportPage(){
+  return `<div class="doc"><h1 class="page">Passport states</h1>
+  <p class="lead">Every skill, every employee, one state at a time. States 1–10 are the ladder; 11–14 are the exits.</p>
+  <div class="banner warn"><b>"Independent" never appears alone</b><p>State 10 reads "independently assignable within hospital policy" and always displays with its supervision level and scope class. Arizona recognises two supervision states — direct and indirect. Nothing here changes anyone's legal scope.</p></div>
+  <div class="tw"><table><thead><tr><th>#</th><th>State</th><th>Set by / note</th></tr></thead><tbody>
+  ${STATES.map((s,i)=>`<tr><td><span class="id">${i+1}</span></td><td>${esc(s[0])}</td><td>${esc(s[1])}</td></tr>`).join('')}
+  </tbody></table></div>${footer()}</div>`;
+}
+
+function cardsPage(){
+  const rev = M.mode === 'review';
+  return `<div class="doc"><h1 class="page">Clinical reference cards</h1>
+  <p class="lead">All high-risk numbers live here, versioned and signed — never scattered through lessons.</p>
+  ${rev
+    ? `<div class="banner stop"><b>REVIEW BUILD — for the Medical Reviewer only</b><p>This copy exposes unapproved draft values so they can be corrected and signed. Do not deploy this file to learners. The production build does not contain these numbers at all.</p></div>`
+    : `<div class="banner ok"><b>Unapproved values are absent from this build</b><p>This is the production console. Where a card has not been approved, its numbers are not hidden behind a click — they are not in this file. Reviewers work from a separate <code>--review</code> build.</p></div>`}
+  ${DATA.crc.map(c=>{
+    const cls = c.approved ? 'approved' : (rev && c.body ? 'review' : 'pending');
+    const tag = c.approved ? 'APPROVED' : (rev && c.body ? 'PENDING — DRAFT SHOWN' : 'AWAITING SIGN-OFF');
+    return `<div class="crc ${cls}"><div class="h"><span>${esc(c.title)}</span><span class="tag">${tag}</span></div>
+    ${c.approved
+      ? `<div class="body"><p class="sub">v${esc(c.version)} · approved ${esc(c.approval_date)} by ${esc(c.approved_by)} · next review ${esc(c.next_review)} · posted ${esc(c.posted)}</p>${c.body||''}</div>`
+      : (rev && c.body ? `<div class="body">${c.body}</div>`
+        : `<div class="withheld"><b>Values withheld from this build</b>This card is at version ${esc(c.version)} and has not been approved by the medical director. Its numbers are deliberately absent. Once signed, it will display reviewer, approval date, version, sources and next-review date here.</div>`)}
+    </div>`;}).join('')}
+  ${footer()}</div>`;
+}
+
+function footer(){
+  return `<footer class="bld">Build ${esc(M.built_utc)} · curriculum v${esc(M.curriculum_version)} · commit ${esc(M.commit)}${M.dirty?' (uncommitted changes)':''} · ${esc(M.branch)}<br>
+  fingerprint ${esc(M.fingerprint)} · mode ${esc(M.mode)} · stage ${esc(M.stage)} · ${M.doc_count} documents
+  ${stale?' · <strong>STALE — regenerate</strong>':''}</footer>`;
+}
+
+/* ---------- render ---------- */
+function show(id, scrollTo){
+  const v = $('#view');
+  const P = {start:startPage, today:todayPage, find:findPage, passport:passportPage, cards:cardsPage};
+  if(P[id]) v.innerHTML = P[id]();
+  else {
+    const d = byId[id]; if(!d) return;
+    v.innerHTML = `<div class="tools"><button data-print>Print this page</button><button data-back>← Start</button></div>
+      <div class="doc ${d.group==='Assess'||d.group==='Run it'?'wide':''}">
+      <h1 class="page">${esc(d.title)}</h1><p class="sub">${esc(d.group)}${d.meta?' · '+esc(d.meta):''}</p>${d.html}${footer()}</div>`;
+  }
+  document.querySelectorAll('nav button').forEach(b => b.setAttribute('aria-current', b.dataset.id === id ? 'true' : 'false'));
+  $('#nav').classList.remove('open'); $('#navtoggle').setAttribute('aria-expanded','false');
+  window.scrollTo(0,0);
+  if(scrollTo){
+    const needle = scrollTo.toLowerCase();
+    for(const el of v.querySelectorAll('p,li,td,h2,h3,blockquote')){
+      if(el.textContent.toLowerCase().includes(needle)){
+        el.scrollIntoView({block:'center'}); el.style.background='var(--warn-bg)'; el.style.borderRadius='4px'; break; }
+    }
+  }
+}
+
+/* ---------- search ---------- */
+function snippet(text, q){
+  const needle = q.toLowerCase();
+  const i = text.toLowerCase().indexOf(needle);
+  const s = i < 0 ? 0 : Math.max(0, i - 60);
+  let rest = (s ? '…' : '') + text.slice(s, i < 0 ? 150 : i + q.length + 110) + '…', out = '';
+  while(needle){
+    const k = rest.toLowerCase().indexOf(needle);
+    if(k < 0) break;
+    out += esc(rest.slice(0,k)) + '<mark>' + esc(rest.slice(k, k + q.length)) + '</mark>';
+    rest = rest.slice(k + q.length);
+  }
+  return out + esc(rest);
+}
+function search(q){
+  const box = $('#results');
+  if(q.trim().length < 2){ box.hidden = true; box.innerHTML = ''; return; }
+  const needle = q.trim().toLowerCase(), hits = [];
+  DATA.trouble.forEach(t => {
+    if((t.symptom+' '+t.answer).toLowerCase().includes(needle))
+      hits.push({id:t.target, title:t.symptom, group:'Find it fast', snip:snippet(t.answer, q.trim()), q:t.symptom, rank:0});
+  });
+  DATA.docs.forEach(d => {
+    const inTitle = d.title.toLowerCase().includes(needle);
+    if(inTitle || d.text.toLowerCase().includes(needle))
+      hits.push({id:d.id, title:d.title, group:d.group, snip:snippet(d.text, q.trim()), q:q.trim(), rank:inTitle?1:2});
+  });
+  hits.sort((a,b)=>a.rank-b.rank);
+  box.hidden = false;
+  box.innerHTML = hits.length
+    ? `<p class="sub">${hits.length} match${hits.length>1?'es':''} for “${esc(q.trim())}”</p>` +
+      hits.slice(0,40).map(h=>`<button class="res" data-go="${h.id}" data-q="${esc(h.q)}"><b>${esc(h.title)}</b><span class="g">${esc(h.group)}</span><p>${h.snip}</p></button>`).join('')
+    : `<p class="empty">Nothing matches “${esc(q.trim())}”. Try a symptom in plain words — “swollen leg”, “no flash”, “alarm”.</p>`;
+}
+
+/* ---------- events ---------- */
+document.addEventListener('click', e => {
+  const go = e.target.closest('[data-go]');
+  if(go){ e.preventDefault();
+    if(go.classList.contains('res')){ const b=$('#results'); b.hidden=true; b.innerHTML=''; }
+    show(go.dataset.go, go.dataset.q); return; }
+  if(e.target.closest('[data-print]')){ window.print(); return; }
+  if(e.target.closest('[data-back]')){ show('start'); return; }
+  const gate = e.target.closest('ol.gate input');
+  if(gate){
+    const li = gate.closest('li'), i = +li.dataset.i;
+    let done = JSON.parse(localStorage.getItem('cvah_gate') || '[]');
+    done = gate.checked ? [...new Set([...done, i])] : done.filter(x => x !== i);
+    localStorage.setItem('cvah_gate', JSON.stringify(done));
+    li.classList.toggle('done', gate.checked);
+    const bar = document.querySelector('.prog i');
+    if(bar) bar.style.width = Math.round(done.length / DATA.gate.length * 100) + '%';
+  }
+});
+$('#q').addEventListener('input', e => search(e.target.value));
+$('#q').addEventListener('focus', e => { if(e.target.value.trim().length>1 && $('#results').hidden) search(e.target.value); });
+$('#navtoggle').addEventListener('click', e => {
+  const open = $('#nav').classList.toggle('open');
+  e.target.setAttribute('aria-expanded', String(open));
+});
+document.addEventListener('keydown', e => {
+  if(e.key === '/' && document.activeElement !== $('#q')){ e.preventDefault(); $('#q').focus(); }
+  if(e.key === 'Escape'){ $('#q').value = ''; search(''); }
+});
+
+const pill = $('#statuspill');
+pill.textContent = M.mode === 'review' ? 'REVIEW BUILD — not for learners' : (stale ? ageDays+' days old — regenerate' : M.stage);
+if(M.mode === 'review' || stale) pill.classList.add('rev');
+buildNav();
+show('start');
+</script>
